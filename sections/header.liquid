@@ -360,7 +360,8 @@
                       </button>
                       <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
                         {% if section.settings.search_logo != blank%}
-                          {{ section.settings.search_logo | img_url: 'master' }}
+                          <h1>Hi</h1>
+                          {% comment %} {{ section.settings.search_logo | img_url: 'master' }} {% endcomment %}
                         {% else %}
                           <svg class="icon icon-search" aria-hidden="true" focusable="false">
                             <use href="#icon-search">
