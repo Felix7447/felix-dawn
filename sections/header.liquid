@@ -550,7 +550,7 @@
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
               {% if section.settings.search_logo != blank%}
-                {{ section.settings.search_logo | img_url: 'master' }}
+                {{ section.settings.search_logo | img_url: 'master' | img_tag }}
               {% else %}
                 <svg class="icon icon-search" aria-hidden="true" focusable="false">
                   <use href="#icon-search">
