@@ -28,6 +28,7 @@
         "logo_position": "middle-center",
         "search_icon": "shopify:\/\/shop_images\/search.png",
         "account_icon": "shopify:\/\/shop_images\/profile.png",
+        "cart_icon": "shopify:\/\/shop_images\/cart.png",
         "menu": "ringbandits-header-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
