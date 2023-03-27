@@ -636,7 +636,11 @@
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          {% render 'icon-account' %}
+          {% if section.settings.account_icon %}
+            {{ section.settings.account_icon | img_url: 'master' | img_tag }}
+          {% else %}
+            {% render 'icon-account' %}
+          {% endif %}
           <span class="visually-hidden">
             {%- liquid
               if customer
@@ -891,8 +895,14 @@
     {
       "type": "image_picker",
       "id": "search_icon",
-      "label": "Search Logo Image",
-      "info": "Use your own search logo image"
+      "label": "Search Icon Image",
+      "info": "Use your own search icon image"
+    },
+    {
+      "type": "image_picker",
+      "id": "account_icon",
+      "label": "Account Icon Image",
+      "info": "Use your own search icon image"
     },
     {
       "type": "link_list",
