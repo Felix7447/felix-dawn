@@ -10,8 +10,8 @@ if (!customElements.get("media-gallery")) {
           thumbnails: this.querySelector('[id^="GalleryThumbnails"]'),
         };
         this.mql = window.matchMedia("(min-width: 750px)");
-        console.log(this.elements.thumbnails);
-        // if (!this.elements.thumbnails) return;
+        console.log(this.elements);
+        if (!this.elements.thumbnails) return;
 
         this.elements.viewer.addEventListener(
           "slideChanged",
