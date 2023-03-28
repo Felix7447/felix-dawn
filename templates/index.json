@@ -1,89 +1,8 @@
 {
   "sections": {
-    "main_product": {
-      "type": "main-product",
-      "blocks": {
-        "7da123a5-feb4-4896-88a7-e220b229e225": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "b1541b02-f3c8-4505-80e0-bc1f981f2ce2": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "dc1075e6-5796-49d8-ac3b-ca2d425c76bf": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "f4f2a5c3-2968-4e13-9b6c-12ce48450e91": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "61dc3bc6-42f6-4fe5-814f-31aa7f900e8b": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "03eeac9e-5273-44f8-b3f3-1a352b4e48ff": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "a5ceb9c7-2203-4684-8c9b-8718d04d3e6d": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": false
-          }
-        },
-        "7d08a233-f666-436a-a663-06ecc23d2f27": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "32060f26-957e-4e07-a6d3-e8e47b2cef89": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "7da123a5-feb4-4896-88a7-e220b229e225",
-        "b1541b02-f3c8-4505-80e0-bc1f981f2ce2",
-        "dc1075e6-5796-49d8-ac3b-ca2d425c76bf",
-        "f4f2a5c3-2968-4e13-9b6c-12ce48450e91",
-        "61dc3bc6-42f6-4fe5-814f-31aa7f900e8b",
-        "03eeac9e-5273-44f8-b3f3-1a352b4e48ff",
-        "a5ceb9c7-2203-4684-8c9b-8718d04d3e6d",
-        "7d08a233-f666-436a-a663-06ecc23d2f27",
-        "32060f26-957e-4e07-a6d3-e8e47b2cef89"
-      ],
+    "main_product_home": {
+      "type": "main-product-home",
       "settings": {
-        "enable_sticky_info": true,
-        "media_size": "large",
-        "constrain_to_viewport": false,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "image_banner": {
@@ -154,8 +73,6 @@
         "text"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -167,22 +84,15 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
@@ -222,7 +132,6 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -296,7 +205,7 @@
     }
   },
   "order": [
-    "main_product",
+    "main_product_home",
     "image_banner",
     "rich_text",
     "featured_collection",
