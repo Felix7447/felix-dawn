@@ -86,17 +86,17 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
-                <h1>{{ product.title | escape }}</h1>
-                <a href="{{ product.url }}" class="product__title">
+                <h1>{{ main_product.title | escape }}</h1>
+                <a href="{{ main_product.url }}" class="product__title">
                   <h2 class="h1">
-                    {{ product.title | escape }}
+                    {{ main_product.title | escape }}
                   </h2>
                 </a>
               </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
-                  product: product,
+                  product: main_product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
@@ -114,8 +114,8 @@
               {%- endif -%}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
-                {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                {%- form 'product', main_product, id: product_form_installment_id, class: 'installment caption-large' -%}
+                  <input type="hidden" name="id" value="{{ main_product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
