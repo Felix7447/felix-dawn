@@ -15,9 +15,8 @@
   {% assign main_product = section.settings.main_product %}
 
   <h1>{{ main_product }}</h1>
-  <img src="{{ main_product.featured_image | img_url: 'medium' }}" alt="">
   {% for image in main_product.images %}
-    <img src="{{ image.src }}" alt="">
+    <img src="{{ image.src | img_url: 'medium'}}" alt="">
   {% endfor %}
 
   {%- style -%}
