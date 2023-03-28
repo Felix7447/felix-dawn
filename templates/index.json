@@ -11,7 +11,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "Text block",
+            "text": "{{ section.settings.main_product.title }}",
             "text_style": "body"
           }
         },
