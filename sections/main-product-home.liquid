@@ -12,9 +12,9 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
-  {% assign main_product = collections[0].products[0] %}
+  {% assign main_product = collections[0] %}
 
-  <p>{{ main_product }}</p>
+  <h1>{{ main_product }}</h1>
 
   {%- style -%}
     .section-{{ section.id }}-padding {
