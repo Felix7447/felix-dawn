@@ -12,7 +12,7 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
-  {% assign main_product = collections %}
+  {% assign main_product = section.settings.main_product %}
 
   <h1>{{ main_product }}</h1>
 
