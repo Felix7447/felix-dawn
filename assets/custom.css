@@ -7,7 +7,7 @@
 }
 
 .main-product__media-gallery {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(12, 1fr);
 }
 
