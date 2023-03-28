@@ -6,9 +6,23 @@
     text-decoration: none !important;
 }
 
+.main-product__media-gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.main-product__media-gallery .slider-mobile-gutter {
+    grid-column: span 10;
+}
+
+.main-product__media-gallery .thumbnail-slider {
+    grid-column: span 2;
+}
+
 .thumbnail-list {
     display: flex !important;
     flex-direction: column;
     flex-wrap: unset !important;
     width: 10%;
 }
+
