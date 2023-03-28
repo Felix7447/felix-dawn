@@ -5,3 +5,7 @@
 .header__menu-item:hover span {
     text-decoration: none !important;
 }
+
+.slider-buttons .slider-button {
+    display: flex !important;
+}
