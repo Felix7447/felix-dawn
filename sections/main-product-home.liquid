@@ -16,6 +16,9 @@
 
   <h1>{{ main_product }}</h1>
   <img src="{{ main_product.featured_image | img_url: 'medium' }}" alt="">
+  {% for image in main_product.images %}
+    <img src="{{ image.src }}" alt="">
+  {% endfor %}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
