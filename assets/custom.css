@@ -6,6 +6,8 @@
     text-decoration: none !important;
 }
 
-/* .slider-buttons, .slider-button {
-    display: flex !important;
-} */
+.thumbnail-list {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
