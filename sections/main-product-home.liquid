@@ -13,13 +13,6 @@
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
   {% assign main_product = section.settings.main_product %}
-  {% assign variant_ima = main_product.images | map: 'src' %}
-
-  <h1>{{ main_product }}</h1>
-  {% for image in variant_ima %}
-    <img src="{{ image.src | img_url: 'medium'}}" alt="">
-    <p>{{image.src | img_url: 'medium'}}</p>
-  {% endfor %}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
