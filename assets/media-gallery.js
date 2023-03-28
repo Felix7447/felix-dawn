@@ -7,7 +7,7 @@ if (!customElements.get("media-gallery")) {
         this.elements = {
           liveRegion: this.querySelector('[id^="GalleryStatus"]'),
           viewer: this.querySelector('[id^="GalleryViewer"]'),
-          thumbnails: this.querySelector("#GalleryThumbnails"),
+          thumbnails: this.querySelector(".thumbnail-slider"),
         };
         this.mql = window.matchMedia("(min-width: 750px)");
         console.log(this.elements.thumbnails);
