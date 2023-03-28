@@ -7,11 +7,11 @@ if (!customElements.get("media-gallery")) {
         this.elements = {
           liveRegion: this.querySelector('[id^="GalleryStatus"]'),
           viewer: this.querySelector('[id^="GalleryViewer"]'),
-          thumbnails: this.querySelector(".thumbnail-slider"),
+          thumbnails: this.querySelector('[id^="GalleryThumbnails"]'),
         };
         this.mql = window.matchMedia("(min-width: 750px)");
         console.log(this.elements.thumbnails);
-        if (!this.elements.thumbnails) return;
+        // if (!this.elements.thumbnails) return;
 
         this.elements.viewer.addEventListener(
           "slideChanged",
