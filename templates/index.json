@@ -2,6 +2,13 @@
   "sections": {
     "main_product_home": {
       "type": "main-product-home",
+      "blocks": {
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
       "settings": {
       }
     },
