@@ -9,6 +9,9 @@
           }
         }
       },
+      "block_order": [
+        "rating"
+      ],
       "settings": {
       }
     },
