@@ -77,7 +77,7 @@
       <div id="shopify-product-reviews" data-id="{{main_product.id}}">{{ main_product.metafields.spr.reviews }}</div>
       
       <div class="product__rating-share">
-        <span class="shopify-product-reviews-badge" data-id="{{ main_product.id }}"></span>
+        {% comment %} <span class="shopify-product-reviews-badge" data-id="{{ main_product.id }}"></span> {% endcomment %}
         <div class="">
           <img src="{{ section.settings.share_icon | img_url: 'small'}}" alt="{{ section.settings.share_icon.alt }}" style="vertical-align: middle;">
           <span>share</span>
