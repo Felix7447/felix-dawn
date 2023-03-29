@@ -8,10 +8,10 @@
 
 .main-product-tags {
     margin: 1em 0;
+    color: black;
 }
 
 .main-product__collection {
-    color: black;
     text-decoration: underline;
     cursor: pointer;
 }
