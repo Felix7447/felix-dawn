@@ -77,8 +77,12 @@
       
       <div class="product__rating-share">
         <span class="shopify-product-reviews-badge" data-id="{{ main_product.id }}"></span>
-        <span>< share</span>
+        <div class="">
+          <img src="{{ section.settings.share_icon }}" alt="">
+          <span>share</span>
+        </div>
       </div>
+
       <product-info
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
@@ -1916,6 +1920,11 @@
       "type": "product",
       "id": "main_product",
       "label": "Select a product from your store"
+    },
+    {
+      "type": "image_picker",
+      "id": "share_icon",
+      "label": "Share icon"
     },
     {
       "type": "checkbox",
