@@ -37,13 +37,13 @@
         "691132d2-8bfb-4040-98c8-95057235693a": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
+            "block_heading": "",
+            "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 4,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
+            "products_per_page": 4,
+            "pagination_style": "dots",
+            "image_ratio": "portrait",
             "enable_quick_add": false
           }
         },
