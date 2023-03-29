@@ -6,6 +6,11 @@
     text-decoration: none !important;
 }
 
+.main-product__collection {
+    color: black;
+    text-decoration: underline;
+}
+
 .main-product__media-gallery {
     display: grid !important;
     grid-template-columns: repeat(12, 1fr);
