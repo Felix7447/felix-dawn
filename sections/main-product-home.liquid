@@ -74,6 +74,7 @@
       {% render 'product-media-gallery', variant_images: variant_images, product: main_product %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
+      <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
       <product-info
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
