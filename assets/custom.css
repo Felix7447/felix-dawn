@@ -54,6 +54,8 @@
 
 .rating-text {
     display: inline !important;
+    font-size: 10px;
+    color: #000000;
 }
 
 .product__title-custom {
