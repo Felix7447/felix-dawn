@@ -6,6 +6,10 @@
     text-decoration: none !important;
 }
 
+.product__media-wrapper {
+    max-width: 60% !important;
+}
+
 .main-product-tags {
     margin: 1em 0;
     color: black;
