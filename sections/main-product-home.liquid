@@ -63,7 +63,7 @@
 
   {% assign variant_images = main_product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-  <div>
+  <div class="main-product-tags">
     {% for item in collections %}
       <span class="main-product__collection">{{item.title}}</span>
     {% endfor %}
