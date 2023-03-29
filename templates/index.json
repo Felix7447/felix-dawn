@@ -101,6 +101,7 @@
       ],
       "settings": {
         "main_product": "cheetah-reign-original-bandit",
+        "share_icon": "shopify:\/\/shop_images\/share.png",
         "enable_sticky_info": true,
         "media_size": "large",
         "constrain_to_viewport": false,
