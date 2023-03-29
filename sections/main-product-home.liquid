@@ -74,10 +74,10 @@
       {% render 'product-media-gallery', variant_images: variant_images, product: main_product %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
-      <div id="shopify-product-reviews" data-id="{{main_product.id}}">{{ main_product.metafields.spr.reviews }}</div>
+      {% comment %} <div id="shopify-product-reviews" data-id="{{main_product.id}}">{{ main_product.metafields.spr.reviews }}</div> {% endcomment %}
       
       <div class="product__rating-share">
-        {% comment %} <span class="shopify-product-reviews-badge" data-id="{{ main_product.id }}"></span> {% endcomment %}
+        <span class="shopify-product-reviews-badge" data-id="{{ main_product.id }}"></span>
         <div class="">
           <img src="{{ section.settings.share_icon | img_url: 'small'}}" alt="{{ section.settings.share_icon.alt }}" style="vertical-align: middle;">
           <span>share</span>
