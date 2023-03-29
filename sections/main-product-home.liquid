@@ -14,6 +14,17 @@
 
   {% assign main_product = section.settings.main_product %}
 
+  {% assign collections = main_product.collections %}
+  {% assign tags = main_product.tags %}
+
+  {% for item in collections %}
+    <p>item</p>
+  {% endfor %}
+
+  {% for item in tags %}
+    <p>item</p>
+  {% endfor %}
+
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
