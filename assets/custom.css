@@ -53,7 +53,7 @@
 }
 
 .rating-text {
-    display: inline;
+    display: inline !important;
 }
 
 .product__title-custom {
