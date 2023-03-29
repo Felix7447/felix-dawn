@@ -52,6 +52,10 @@
     justify-content: space-between;
 }
 
+.rating-text {
+    display: inline;
+}
+
 .product__title-custom {
     font-family: 'IowanOldSt BT';
     font-style: normal;
