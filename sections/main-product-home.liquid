@@ -530,7 +530,7 @@
         '.product-form__noscript-wrapper-{{ section.id }}'
       ).textContent;
 
-      console.log(variantSwitcher.classList)
+      console.log(variantSwitcher)
       variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
 
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function (event) {
