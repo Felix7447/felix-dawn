@@ -36,3 +36,8 @@
     flex-wrap: unset !important;
 }
 
+.product__rating-share {
+    display: flex;
+    justify-content: space-between;
+}
+
