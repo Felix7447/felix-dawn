@@ -103,8 +103,8 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div class="product__title product__title-custom" {{ block.shopify_attributes }}>
-                <h1>{{ main_product.title | escape }}</h1>
+              <div class="product__title" {{ block.shopify_attributes }}>
+                <h1 class="product__title-custom">{{ main_product.title | escape }}</h1>
                 <a href="{{ main_product.url }}" class="product__title">
                   <h2 class="h1">
                     {{ main_product.title | escape }}
