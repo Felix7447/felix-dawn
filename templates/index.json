@@ -37,7 +37,7 @@
         "691132d2-8bfb-4040-98c8-95057235693a": {
           "type": "complementary",
           "settings": {
-            "block_heading": "",
+            "block_heading": "WOULD YOU LIKE TO ADD",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 4,
