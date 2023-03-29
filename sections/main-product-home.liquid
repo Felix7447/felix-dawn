@@ -369,7 +369,7 @@
               {% render 'product-variant-picker', block: block, product: main_product %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: main_product, product_form_id: product_form_id, show_pickup_availability: true -%}
-            {%- when 'rating' -%}
+            {% comment %} {%- when 'rating' -%}
               {%- if main_product.metafields.reviews.rating.value != blank -%}
                 {% liquid
                   assign rating_decimal = 0
@@ -405,7 +405,7 @@
                     {{ 'accessibility.total_reviews' | t -}}
                   </span>
                 </p>
-              {%- endif -%}
+              {%- endif -%} {% endcomment %}
             {%- when 'complementary' -%}
               <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}{% if block.settings.enable_quick_add %} complementary-products-contains-quick-add{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ main_product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
                 {%- if recommendations.performed and recommendations.products_count > 0 -%}
