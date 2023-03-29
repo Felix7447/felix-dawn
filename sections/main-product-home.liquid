@@ -529,6 +529,8 @@
       noScriptInputWrapper.innerHTML = document.querySelector(
         '.product-form__noscript-wrapper-{{ section.id }}'
       ).textContent;
+
+      console.log(variantSwitcher.classList)
       variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
 
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function (event) {
