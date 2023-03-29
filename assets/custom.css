@@ -6,7 +6,7 @@
     text-decoration: none !important;
 }
 
-
+/* MAIN PRODUCT */
 
 .product__media-wrapper {
     max-width: 60% !important;
@@ -65,7 +65,10 @@
 }
 
 .variant-radios-custom {
-    width: 50%;
+    width: 52%;
     display: inline-block;
 }
+
+
+/* ENDS MAIN PRODUCT */
 
