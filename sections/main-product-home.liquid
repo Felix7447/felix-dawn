@@ -357,10 +357,10 @@
                 </div>
                 <p class="rating-text caption">
                   Reviews
-                  <span aria-hidden="true">
+                  {% comment %} <span aria-hidden="true">
                     {{- main_product.metafields.reviews.rating.value }} /
                     {{ main_product.metafields.reviews.rating.value.scale_max -}}
-                  </span>
+                  </span> {% endcomment %}
                 </p>
                 <p class="rating-count caption">
                   <span aria-hidden="true">({{ main_product.metafields.reviews.rating_count }})</span>
