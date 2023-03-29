@@ -63,9 +63,9 @@
 
   {% assign variant_images = main_product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-  <div>
+  <div class="header__menu-item">
     {% for item in collections %}
-      {{item.title}} 
+      <span>{{item.title}}</span>
     {% endfor %}
     > {{ tags }}
   </div>
