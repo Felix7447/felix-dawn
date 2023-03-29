@@ -41,3 +41,11 @@
     justify-content: space-between;
 }
 
+.product__title-custom {
+    font-family: 'IowanOldSt BT';
+    font-style: normal;
+    font-size: 38px;
+    line-height: 114%;
+    width: 60%;
+}
+
