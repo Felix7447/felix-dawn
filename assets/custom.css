@@ -9,6 +9,7 @@
 .main-product__collection {
     color: black;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .main-product__media-gallery {
