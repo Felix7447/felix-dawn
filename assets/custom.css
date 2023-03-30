@@ -1,3 +1,5 @@
+/* Header */
+
 .header__active-menu-item {
     text-decoration: none !important;
 }
@@ -5,6 +7,8 @@
 .header__menu-item:hover span {
     text-decoration: none !important;
 }
+
+/* End Header */
 
 /* MAIN PRODUCT */
 
@@ -72,7 +76,7 @@
 }
 
 .variant-radios-custom {
-    width: 52%;
+    width: 75%;
     display: inline-block;
 }
 
