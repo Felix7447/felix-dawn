@@ -73,6 +73,7 @@
 .product-form__quantity {
     width: 40%;
     display: inline-block;
+    min-width: 12rem;
 }
 
 .variant-radios-custom {
