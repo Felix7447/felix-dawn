@@ -71,13 +71,13 @@
 }
 
 .product-form__quantity {
-    width: 40%;
+    width: 38%;
     display: inline-block;
     min-width: 12rem !important;
 }
 
 .variant-radios-custom {
-    width: 75%;
+    width: 60%;
     display: inline-block;
 }
 
