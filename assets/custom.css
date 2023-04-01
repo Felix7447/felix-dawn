@@ -153,7 +153,10 @@
     font-weight: 600;
 }
 
-.product-form__buttons button{
+.product-form__buttons {
+    max-width: 100% !important;
+}
+.product-form__buttons button {
     height: 3em;
 }
 
