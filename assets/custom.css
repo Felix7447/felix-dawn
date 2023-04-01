@@ -133,8 +133,11 @@
 
 .card-information {
     text-align: center !important;
-    color: #000000 !important;
     font-weight: 600;
+}
+
+.card-information .price__regular span {
+    color: #000000 !important;
 }
 
 .card-information .price__regular span::before {
