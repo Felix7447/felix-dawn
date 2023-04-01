@@ -51,6 +51,7 @@
     flex-wrap: unset !important;
 }
 
+/* Product Info */
 .product__rating-share {
     display: flex;
     justify-content: space-between;
