@@ -138,6 +138,7 @@
 
 .card-information .price__regular span {
     color: #000000 !important;
+    font-size: 10px;
 }
 
 .card-information .price__regular span::before {
