@@ -103,6 +103,7 @@
 
 .quantity__input-custom {
     border: 1px solid rgba(159, 159, 159, 1);
+    padding: 0.8em;
 }
 
 .variant-radios-custom {
