@@ -113,8 +113,31 @@
     display: inline-block;
 }
 
+/* Product Recommedation */
 .list-unstyled-custom {
-    flex-direction: row;
+    flex-direction: row !important;
+}
+
+.card__inner.color-background-2.gradient.ratio {
+    display: none;
+}
+
+.card.card--standard.card--media.card--horizontal {
+    background: #f8f8f8;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-information {
+    text-align: center;
+    font-weight: 600;
+}
+
+.card__content .card__information h3.card__heading {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .product-form__buttons button{
