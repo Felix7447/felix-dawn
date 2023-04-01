@@ -81,7 +81,7 @@
           {%- if block.settings.show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}
-          <div>
+          <div class="payment-methods">
             <p>Secured and trusted checkout with:</p>
             <img src="{{ 'check.png' | img_url: 'medium' }}" alt="">
           </div>
