@@ -75,6 +75,10 @@
     list-style-image: url('./check.png');
 }
 
+.price-item-custom {
+    font-size: 24px;
+}
+
 .product-form__quantity {
     width: 38%;
     display: inline-block;
