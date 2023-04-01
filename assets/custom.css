@@ -75,6 +75,11 @@
     list-style-image: url('./check.png');
 }
 
+.price-custom {
+    border-bottom: 3px black solid;
+    padding-bottom: 1em;
+}
+
 .price-item-custom {
     font-size: 24px;
 }
