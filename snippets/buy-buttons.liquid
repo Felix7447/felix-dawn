@@ -61,6 +61,10 @@
                   {{ 'products.product.sold_out' | t }}
                 {%- else -%}
                   {{ 'products.product.add_to_cart' | t }}
+                  <div>
+                    <p>Secured and trusted checkout with:</p>
+                    <img src="{{ 'check.png' | asset_url | img_url: 'medium' }}" alt="">
+                  </div>
                 {%- endif -%}
               {%- else -%}
                 {{ 'products.product.sold_out' | t }}
