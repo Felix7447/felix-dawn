@@ -84,6 +84,10 @@
     font-size: 24px;
 }
 
+.product-form__input input[type=radio]:checked+label {
+    border: 1px black solid;
+}
+
 .product-form__quantity {
     width: 38%;
     display: inline-block;
