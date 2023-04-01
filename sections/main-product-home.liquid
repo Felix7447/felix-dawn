@@ -116,7 +116,7 @@
         {%- endif -%}
         <div class="">
           <img src="{{ section.settings.share_icon | img_url: 'small'}}" alt="{{ section.settings.share_icon.alt }}" style="vertical-align: middle;">
-          <span>share</span>
+          <span>Share</span>
         </div>
       </div>
       <product-info
@@ -224,6 +224,11 @@
               {%- if main_product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ main_product.description }}
+                  <ul>
+                    {% for block in section.settings.blocks %}
+                      <li>{{ block }}</li>
+                    {% endfor %}
+                  </ul>
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
