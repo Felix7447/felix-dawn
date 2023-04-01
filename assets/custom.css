@@ -11,6 +11,9 @@
 /* End Header */
 
 /* MAIN PRODUCT */
+.border-bottom {
+    border-bottom: 2px black solid;
+}
 
 .product__media-wrapper {
     max-width: 55% !important;
