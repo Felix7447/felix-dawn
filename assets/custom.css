@@ -72,10 +72,7 @@
 
 .product__description ul {
     padding-left: 0 !important;
-}
-
-.product__description li:before {
-    content: '/';
+    list-style-type: upper-roman;
 }
 
 .product-form__quantity {
