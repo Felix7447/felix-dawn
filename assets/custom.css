@@ -72,7 +72,7 @@
 
 .product__description ul {
     padding-left: 0 !important;
-    list-style-type: upper-roman;
+    list-style-image: url('./check.png');
 }
 
 .product-form__quantity {
