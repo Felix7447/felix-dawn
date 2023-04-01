@@ -17,7 +17,7 @@
   {% assign collections = main_product.collections %}
   {% assign tags = main_product.tags %}
 
-  
+  {% assign payment_methods_image = section.settings.blocks[0].payment_methods_image %}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -789,6 +789,11 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+        },
+        {
+          "type": "image_picker",
+          "id": "payment_methods_image",
+          "label": "Payment Methods Image"
         }
       ]
     },
