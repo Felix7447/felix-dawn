@@ -91,6 +91,8 @@
 
 .product-form__input input[type=radio]:checked+label {
     border: 1px black solid;
+    background-color: rgba(248, 248, 248, 1) !important;
+    color: #000000 !important;
 }
 
 .product-form__quantity {
