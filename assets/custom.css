@@ -71,10 +71,10 @@
 }
 
 .product__description ul {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
-.product__description li::before {
+.product__description li:before {
     content: '/';
 }
 
