@@ -156,16 +156,16 @@
                   price_class: 'price--large'
                 -%}
               </div>
-              {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+              {% comment %} {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
-                  {% comment %} {%- if shop.taxes_included -%}
+                   {%- if shop.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
                   {%- endif -%}
                   {%- if shop.shipping_policy.body != blank -%}
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%} {% endcomment %}
+                  {%- endif -%}
                 </div>
-              {%- endif -%}
+              {%- endif -%} {% endcomment %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', main_product, id: product_form_installment_id, class: 'installment caption-large' -%}
