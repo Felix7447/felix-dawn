@@ -50,7 +50,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "payment_methods_image": "shopify:\/\/shop_images\/payment-methods.png"
           }
         }
       },
