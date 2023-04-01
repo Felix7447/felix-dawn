@@ -45,7 +45,7 @@
 
 .main-product__media-gallery .thumbnail-slider {
     grid-column: span 2;
-    padding: 0 1em;
+    padding-right: 1em;
 }
 
 .thumbnail-list {
