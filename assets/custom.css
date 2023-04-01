@@ -158,7 +158,10 @@
 }
 
 .product-form__buttons button {
-    height: 3em;
+    height: 3.5em;
+    background-color: #BED3E4;
+    color: black;
+    text-transform: uppercase;
 }
 
 /* ENDS MAIN PRODUCT */
