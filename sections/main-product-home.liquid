@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width border-bottom section-{{ section.id }}-padding"
+  class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -16,9 +16,6 @@
 
   {% assign collections = main_product.collections %}
   {% assign tags = main_product.tags %}
-
-  {% assign payment_methods_image = section.settings.blocks[0] %}
-  <p>Hi {{ payment_methods_image }}</p>
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -70,7 +67,7 @@
     {% endfor %}
     > {{ tags }}
   </div>
-  <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if main_product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+  <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if main_product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %} border-bottom">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images, product: main_product %}
     </div>
