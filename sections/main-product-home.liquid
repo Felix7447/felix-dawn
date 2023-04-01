@@ -283,7 +283,7 @@
                     <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
                   </span>
                 </label>
-                <quantity-input class="quantity">
+                <quantity-input class="quantity quantity__input-custom">
                   <button class="quantity__button no-js-hidden" name="minus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.decrease' | t: product: main_product.title | escape -}}
@@ -291,7 +291,7 @@
                     {% render 'icon-minus' %}
                   </button>
                   <input
-                    class="quantity__input quantity__input-custom"
+                    class="quantity__input"
                     type="number"
                     name="quantity"
                     id="Quantity-{{ section.id }}"
