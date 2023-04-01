@@ -113,6 +113,10 @@
     display: inline-block;
 }
 
+.list-unstyled-custom {
+    flex-direction: row;
+}
+
 .product-form__buttons button{
     height: 3em;
 }
