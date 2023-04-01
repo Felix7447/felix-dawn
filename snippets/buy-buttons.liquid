@@ -9,6 +9,7 @@
   Usage:
   {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
 {% endcomment %}
+{% assign payment_methods_image = block.settings.payment_methods_image %}
 <div {{ block.shopify_attributes }}>
   {%- if product != blank -%}
     <product-form class="product-form">
@@ -83,6 +84,7 @@
           {%- endif -%}
           <div class="payment-methods">
             <p>Secured and trusted checkout with:</p>
+            <p>{{payment_methods_image}}</p>
             <img src="{{ 'check.png' | img_url: 'medium' }}" alt="">
           </div>
         </div>
