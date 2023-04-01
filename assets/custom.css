@@ -75,7 +75,7 @@
     list-style-image: url('./check.png');
 }
 
-.price-custom {
+.price-large-custom {
     border-bottom: 3px black solid;
     padding-bottom: 1em;
 }
