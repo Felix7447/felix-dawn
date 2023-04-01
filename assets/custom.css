@@ -70,6 +70,14 @@
     width: 60%;
 }
 
+.product__description ul {
+    padding-left: 0;
+}
+
+.product__description li::before {
+    content: '/';
+}
+
 .product-form__quantity {
     width: 38%;
     display: inline-block;
