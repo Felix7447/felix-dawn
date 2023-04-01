@@ -84,8 +84,7 @@
           {%- endif -%}
           <div class="payment-methods">
             <p>Secured and trusted checkout with:</p>
-            <p>hi {{block.settings.payment_methods_image}}</p>
-            <img src="{{ 'check.png' | img_url: 'medium' }}" alt="">
+            <img src="{{ block.settings.payment_methods_image | img_url: 'master'}}" alt="{{ block.settings.payment_methods_image.alt }}">
           </div>
         </div>
       {%- endform -%}
