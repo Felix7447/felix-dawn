@@ -101,6 +101,10 @@
     min-width: 12rem !important;
 }
 
+.quantity__input-custom {
+    border: 1px solid rgba(159, 159, 159, 1);
+}
+
 .variant-radios-custom {
     width: 60%;
     display: inline-block;
