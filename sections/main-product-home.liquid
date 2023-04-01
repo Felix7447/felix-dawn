@@ -17,7 +17,7 @@
   {% assign collections = main_product.collections %}
   {% assign tags = main_product.tags %}
 
-  {% assign payment_methods_image = section.settings.blocks[0].payment_methods_image %}
+  {% assign payment_methods_image = section.settings.blocks[0] %}
   <p>Hi {{ payment_methods_image }}</p>
 
   {%- style -%}
