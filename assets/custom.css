@@ -116,6 +116,7 @@
 /* Product Recommedation */
 .list-unstyled-custom {
     flex-direction: row !important;
+    color: #000000 !important;
 }
 
 .card__inner.color-background-2.gradient.ratio {
@@ -131,7 +132,7 @@
 }
 
 .card-information {
-    text-align: center;
+    text-align: center !important;
     font-weight: 600;
 }
 
