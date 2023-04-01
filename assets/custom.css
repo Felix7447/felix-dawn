@@ -86,6 +86,7 @@
 
 .product-form__input input[type=radio] + label {
     font-size: 10px !important;
+    padding: 1.8rem 2rem !important;
     font-weight: 600;
 }
 
