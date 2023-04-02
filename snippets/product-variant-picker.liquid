@@ -22,7 +22,7 @@ Usage:
         <fieldset class="js product-form__input">
           <div style="display: grid; grid-template-columns: repeat(12, 1fr);">
             <legend class="form__label">{{ option.name }}</legend>
-            <a class="form__label" style="grid-column: 8;">view size chart</a>
+            <a class="form__label" style="grid-column: 6 / 8;">view size chart</a>
           </div>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
