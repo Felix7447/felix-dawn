@@ -103,6 +103,9 @@
 .view-size-chart {
     cursor: pointer;
     color: black;
+    font-size: 1.3rem;
+    line-height: calc(1 + .5 / var(--font-body-scale));
+    letter-spacing: .04rem;
 }
 
 .product-form__quantity {
