@@ -690,7 +690,6 @@ class SliderComponent extends HTMLElement {
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(
       (element) => element.clientWidth > 0
     );
-    console.log(this.sliderItemsToShow);
     if (this.sliderItemsToShow.length < 2) return;
     this.sliderItemOffset =
       this.sliderItemsToShow[1].offsetLeft -
@@ -766,11 +765,6 @@ class SliderComponent extends HTMLElement {
 
   onButtonClick(event) {
     event.preventDefault();
-    console.log(event);
-    console.log(event.currentTarget.dataset.step);
-    console.log(this.slider);
-    console.log(this.sliderItems);
-    console.log(this.sliderItemOffset);
     const step = event.currentTarget.dataset.step || 1;
     this.slideScrollPosition =
       event.currentTarget.name === "next"
