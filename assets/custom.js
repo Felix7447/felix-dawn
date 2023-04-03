@@ -19,6 +19,7 @@ function onPrevButtonClick(event) {
   console.log(event);
   --currentElement;
   if (sliderGalleryItems[currentElement]) {
+    console.log(currentElement);
     showPrevElement(currentElement);
   } else {
     sliderGalleryItems[currentElement + 1].classList.remove("is-active");
