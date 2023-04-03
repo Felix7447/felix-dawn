@@ -783,6 +783,7 @@ a.product__text {
   .product--thumbnail_slider .is-active .deferred-media {
     display: block;
     width: 100%;
+    transition: 500ms all;
   }
 }
 
