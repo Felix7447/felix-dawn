@@ -10,4 +10,14 @@ const nextButton = document.querySelector('button[name="next"]');
 prevButton.addEventListener("click", onButtonClick);
 nextButton.addEventListener("click", onButtonClick);
 
-function onButtonClick() {}
+function onButtonClick(event) {
+  event.preventDefault();
+  const step = event.currentTarget.dataset.step || 1;
+  this.slideScrollPosition =
+    event.currentTarget.name === "next"
+      ? slider.scrollLeft + step * sliderItemOffset
+      : slider.scrollLeft - step * sliderItemOffset;
+  slider.scrollTo({
+    left: this.slideScrollPosition,
+  });
+}
