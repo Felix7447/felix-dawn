@@ -23,7 +23,7 @@ function onPrevButtonClick(event) {
 function onNextButtonClick(event) {
   event.preventDefault();
   ++currentElement;
-  console.log(currentElement);
+  console.log(sliderGalleryItems[currentElement]);
   sliderGalleryItems[currentElement - 1].classList.remove("is-active");
   sliderGalleryItems[currentElement].classList.add("is-active");
 }
