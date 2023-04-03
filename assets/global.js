@@ -690,7 +690,7 @@ class SliderComponent extends HTMLElement {
       (element) => element.clientWidth > 0
     );
     console.log(this.sliderItems.length);
-    if (this.sliderItemsToShow.length < 2) return;
+    if (this.sliderItems.length < 2) return;
     this.sliderItemOffset =
       this.sliderItemsToShow[1].offsetLeft -
       this.sliderItemsToShow[0].offsetLeft;
