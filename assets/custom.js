@@ -19,10 +19,19 @@ function onPrevButtonClick(event) {
   console.log(event);
   --currentElement;
   if (sliderGalleryItems[currentElement]) {
-    console.log(sliderGalleryItems[currentElement]);
+    showPrevElement(currentElement);
   } else {
-    console.log("no");
+    sliderGalleryItems[currentElement + 1].classList.remove("is-active");
+    currentElement = sliderGalleryItems.length;
+    showPrevElement(currentElement);
   }
+}
+
+function showPrevElement(currentElement) {
+  if (sliderGalleryItems[currentElement + 1]) {
+    sliderGalleryItems[currentElement + 1].classList.remove("is-active");
+  }
+  sliderGalleryItems[currentElement].classList.add("is-active");
 }
 
 function onNextButtonClick(event) {
