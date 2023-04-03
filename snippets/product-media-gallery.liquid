@@ -74,7 +74,7 @@ Usage:
           (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4),
           (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4),
           (min-width: 750px) calc((100vw - 15rem) / 8),
-                                                                                                    calc((100vw - 8rem) / 3)
+                                                                                                              calc((100vw - 8rem) / 3)
         {%- endcapture -%}
 
         {%- if featured_media != null -%}
@@ -240,6 +240,7 @@ Usage:
       <div class="slider-buttons no-js-hidden quick-add-hidden{% if hide_mobile_slider %} small-hide{% endif %}">
         <button
           type="button"
+          id="custom-prev-button"
           class="slider-button slider-button--prev slider-button-custom-prev"
           name="previous"
           aria-label="{{ 'general.slider.previous_slide' | t }}">
@@ -255,6 +256,7 @@ Usage:
         </div>
         <button
           type="button"
+          id="custom-next-button"
           class="slider-button slider-button--next slider-button-custom-next"
           name="next"
           aria-label="{{ 'general.slider.next_slide' | t }}">
