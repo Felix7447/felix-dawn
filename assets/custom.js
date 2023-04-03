@@ -1,5 +1,6 @@
 debugger;
 const slider = document.querySelector('[id^="Slider-"]');
+const sliderGallery = document.querySelector('[id^="Slider-Gallery"]');
 const sliderItems = document.querySelectorAll('[id^="Slide-"]');
 const enableSliderLooping = false;
 const currentPageElement = document.querySelector(".slider-counter--current");
