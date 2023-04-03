@@ -21,5 +21,6 @@ function onButtonClick(event) {
 }
 
 function showNextElement(currentElement) {
+  console.log(sliderGalleryItems[0].classList);
   console.log(sliderGalleryItems[currentElement].classList);
 }
