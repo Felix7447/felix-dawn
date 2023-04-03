@@ -686,6 +686,7 @@ class SliderComponent extends HTMLElement {
   }
 
   initPages() {
+    debugger;
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(
       (element) => element.clientWidth > 0
     );
