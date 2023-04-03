@@ -677,7 +677,7 @@ class SliderComponent extends HTMLElement {
     if (!this.slider || !this.nextButton) return;
 
     this.initPages();
-    const resizeObserver = new ResizeObserver((entries) => this.initPages());
+    // const resizeObserver = new ResizeObserver((entries) => this.initPages());
     // resizeObserver.observe(this.slider);
 
     this.slider.addEventListener("scroll", this.update.bind(this));
@@ -699,7 +699,7 @@ class SliderComponent extends HTMLElement {
         this.sliderItemOffset
     );
     this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
-    this.update();
+    // this.update();
   }
 
   resetPages() {
