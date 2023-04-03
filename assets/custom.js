@@ -23,9 +23,15 @@ function onPrevButtonClick(event) {
 function onNextButtonClick(event) {
   event.preventDefault();
   ++currentElement;
-  console.log(sliderGalleryItems[currentElement]);
+  if (sliderGalleryItems[currentElement]) {
+    showNextElement(currentElement);
+  } else {
+    currentElement = 0;
+    showNextElement(currentElement);
+  }
+}
+
+function showNextElement(currentElement) {
   sliderGalleryItems[currentElement - 1].classList.remove("is-active");
   sliderGalleryItems[currentElement].classList.add("is-active");
 }
-
-function showNextElement(currentElement) {}
