@@ -62,6 +62,13 @@
     flex-wrap: unset !important;
 }
 
+.slider-button-custom {
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
 /* Product Info */
 .product__rating-share {
     display: flex;
