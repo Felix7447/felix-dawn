@@ -62,7 +62,14 @@
     flex-wrap: unset !important;
 }
 
-.slider-button-custom {
+.slider-button-custom-prev {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+.slider-button-custom-next {
     display: block;
     position: absolute;
     top: 40%;
