@@ -9,19 +9,23 @@ const pageTotalElement = document.querySelector(".slider-counter--total");
 const prevButton = document.querySelector("#custom-prev-button");
 const nextButton = document.querySelector("#custom-next-button");
 
-prevButton.addEventListener("click", onButtonClick);
-nextButton.addEventListener("click", onButtonClick);
+prevButton.addEventListener("click", onPrevButtonClick);
+nextButton.addEventListener("click", onNextButtonClick);
 
 let currentElement = 0;
 
-function onButtonClick(event) {
+function onPrevButtonClick(event) {
   event.preventDefault();
   console.log(event);
   //   showNextElement(currentElement);
 }
 
-function showNextElement(currentElement) {
+function onNextButtonClick(event) {
+  event.preventDefault();
   ++currentElement;
+  console.log(currentElement);
   sliderGalleryItems[currentElement - 1].classList.remove("is-active");
   sliderGalleryItems[currentElement].classList.add("is-active");
 }
+
+function showNextElement(currentElement) {}
