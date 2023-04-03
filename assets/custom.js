@@ -16,11 +16,12 @@ let currentElement = 0;
 
 function onButtonClick(event) {
   event.preventDefault();
-  ++currentElement;
-  showNextElement(currentElement);
+  console.log(event);
+  //   showNextElement(currentElement);
 }
 
 function showNextElement(currentElement) {
+  ++currentElement;
   sliderGalleryItems[currentElement - 1].classList.remove("is-active");
   sliderGalleryItems[currentElement].classList.add("is-active");
 }
