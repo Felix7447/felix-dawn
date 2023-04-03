@@ -77,15 +77,15 @@
     transform: rotate(90deg) scale(2) !important;
 }
 
-.slider-button-custom-prev svg:hover {
-    transform: rotate(90deg) scale(2.5) !important;
-}
-
 .slider-button-custom-next {
     display: block !important;
     position: absolute;
     top: 40%;
     right: 0;
+}
+
+.slider-button-custom-next svg {
+    transform: rotate(-90deg) scale(2) !important;
 }
 
 /* Product Info */
