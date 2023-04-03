@@ -1,4 +1,4 @@
-// debugger;
+debugger;
 const slider = document.querySelector('[id^="Slider-"]');
 const sliderItems = document.querySelectorAll('[id^="Slide-"]');
 const enableSliderLooping = false;
@@ -24,12 +24,5 @@ if (sliderItemsToShow.length >= 2) {
 
 function onButtonClick(event) {
   event.preventDefault();
-  const step = event.currentTarget.dataset.step || 1;
-  const slideScrollPosition =
-    event.currentTarget.name === "next"
-      ? slider.scrollLeft + step * sliderItemOffset
-      : slider.scrollLeft - step * sliderItemOffset;
-  slider.scrollTo({
-    left: slideScrollPosition,
-  });
+  console.log(event);
 }
