@@ -686,9 +686,10 @@ class SliderComponent extends HTMLElement {
   }
 
   initPages() {
-    this.sliderItemsToShow = Array.from(this.sliderItems).filter(
-      (element) => element.clientWidth > 0
-    );
+    // this.sliderItemsToShow = Array.from(this.sliderItems).filter(
+    //   (element) => element.clientWidth > 0
+    // );
+    this.sliderItemsToShow = Array.from(this.sliderItems);
     console.log(this.sliderItemsToShow);
     if (this.sliderItems.length < 2) return;
     this.sliderItemOffset =
