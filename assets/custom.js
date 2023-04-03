@@ -21,6 +21,6 @@ function onButtonClick(event) {
 }
 
 function showNextElement(currentElement) {
-  console.log(sliderGalleryItems[0].classList);
-  console.log(sliderGalleryItems[currentElement].classList);
+  sliderGalleryItems[currentElement - 1].classList.remove("is-active");
+  sliderGalleryItems[currentElement].classList.add("is-active");
 }
