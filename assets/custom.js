@@ -17,7 +17,7 @@ if (sliderItemsToShow.length >= 2) {
   var sliderItemOffset =
     sliderItemsToShow[1].offsetLeft - sliderItemsToShow[0].offsetLeft;
   let slidesPerPage = Math.floor(
-    (this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) /
+    (slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) /
       sliderItemOffset
   );
   var totalPages = sliderItemsToShow.length - slidesPerPage + 1;
