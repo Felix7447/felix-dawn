@@ -23,7 +23,7 @@ function onPrevButtonClick(event) {
     showPrevElement(currentElement);
   } else {
     sliderGalleryItems[currentElement + 1].classList.remove("is-active");
-    currentElement = sliderGalleryItems.length;
+    currentElement = sliderGalleryItems.length - 1;
     showPrevElement(currentElement);
   }
 }
