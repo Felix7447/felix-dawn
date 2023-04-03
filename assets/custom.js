@@ -27,11 +27,14 @@ function onNextButtonClick(event) {
     showNextElement(currentElement);
   } else {
     currentElement = 0;
+    sliderGalleryItems[currentElement - 1].classList.remove("is-active");
     showNextElement(currentElement);
   }
 }
 
 function showNextElement(currentElement) {
-  sliderGalleryItems[currentElement - 1].classList.remove("is-active");
+  if (sliderGalleryItems[currentElement - 1]) {
+    sliderGalleryItems[currentElement - 1].classList.remove("is-active");
+  }
   sliderGalleryItems[currentElement].classList.add("is-active");
 }
