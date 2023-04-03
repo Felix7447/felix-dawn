@@ -1,4 +1,4 @@
-debugger;
+// debugger;
 const slider = document.querySelector('[id^="Slider-"]');
 const sliderItems = document.querySelectorAll('[id^="Slide-"]');
 const sliderGallery = document.querySelector('[id^="Slider-Gallery"]');
