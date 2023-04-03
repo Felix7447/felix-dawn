@@ -17,7 +17,12 @@ let currentElement = 0;
 function onPrevButtonClick(event) {
   event.preventDefault();
   console.log(event);
-  //   showNextElement(currentElement);
+  --currentElement;
+  if (sliderGalleryItems[currentElement]) {
+    console.log(sliderGalleryItems[currentElement]);
+  } else {
+    console.log("no");
+  }
 }
 
 function onNextButtonClick(event) {
