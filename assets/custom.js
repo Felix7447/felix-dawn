@@ -26,8 +26,8 @@ function onNextButtonClick(event) {
   if (sliderGalleryItems[currentElement]) {
     showNextElement(currentElement);
   } else {
-    currentElement = 0;
     sliderGalleryItems[currentElement - 1].classList.remove("is-active");
+    currentElement = 0;
     showNextElement(currentElement);
   }
 }
