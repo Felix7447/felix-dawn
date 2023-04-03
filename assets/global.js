@@ -681,8 +681,8 @@ class SliderComponent extends HTMLElement {
     // resizeObserver.observe(this.slider);
 
     this.slider.addEventListener("scroll", this.update.bind(this));
-    this.prevButton.addEventListener("click", this.onButtonClick.bind(this));
-    this.nextButton.addEventListener("click", this.onButtonClick.bind(this));
+    // this.prevButton.addEventListener("click", this.onButtonClick.bind(this));
+    // this.nextButton.addEventListener("click", this.onButtonClick.bind(this));
   }
 
   initPages() {
