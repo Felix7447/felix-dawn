@@ -1,11 +1,12 @@
 {% liquid
   assign justify_content = section.settings.justify_content
+  assign text_align = section.settings.text_align
 %}
 
 <div class="logo-list-section">
   <div class="logo-list-container page-width justify-{{- justify_content -}}">
     {% for item in section.blocks %}
-      <div class="logo-list-item">
+      <div class="logo-list-item text-{{- text_align -}}">
         {% if item.settings.logo %}
           <img src="{{ item.settings.logo | img_url: 'master' }}" alt="{{ item.settings.logo.alt }}">
         {% endif %}
@@ -39,6 +40,26 @@
           }
         ],
         "default": "around"
+      }, {
+        "type": "header",
+        "content": "Item Settings"
+      }, {
+        "type": "select",
+        "id": "text_align",
+        "label": "Text Align",
+        "options": [
+          {
+            "label": "left",
+            "value": "left"
+          }, {
+            "label": "center",
+            "value": "center"
+          }, {
+            "label": "right",
+            "value": "right"
+          }
+        ],
+        "default": "left"
       }
     ],
     "blocks": [
