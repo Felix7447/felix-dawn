@@ -270,10 +270,24 @@
     vertical-align: middle;
 }
 
+/* Title */
 .logo-list-item h3 {
     font-family: "DM Sans" !important;
 }
 
+.size-small {
+    font-size: 10px !important;
+}
+
+.size-medium {
+    font-size: 20px !important;
+}
+
+.size-large {
+    font-size: 30px !important;
+}
+
+/* Paragraph */
 .logo-list-item p {
     display: inline;
     font-size: 11px;
