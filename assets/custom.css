@@ -241,7 +241,7 @@
 
 .logo-list-item {
     display: inline-block;
-    font-family: "DM Sans";
+    font-family: "DM Sans" !important;
 }
 
 .logo-list-item img {
