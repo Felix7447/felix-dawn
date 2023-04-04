@@ -1,5 +1,10 @@
 {
   "sections": {
+    "1fcb48dc-6ffd-491c-adb8-8e335af749c1": {
+      "type": "logo-list-section",
+      "settings": {
+      }
+    },
     "main_product_home": {
       "type": "main-product-home",
       "blocks": {
@@ -292,6 +297,7 @@
     }
   },
   "order": [
+    "1fcb48dc-6ffd-491c-adb8-8e335af749c1",
     "main_product_home",
     "rich_text",
     "featured_collection",
