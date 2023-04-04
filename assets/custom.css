@@ -292,8 +292,12 @@
 }
 
 /* Paragraph */
-.logo-list-item p {
+.p-size-small {
     font-size: 11px;
+}
+
+.p-size-medium {
+    font-size: 20px;
 }
 
 .paragraph-inline {
