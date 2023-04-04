@@ -345,4 +345,12 @@
     justify-content: space-around;
 }
 
+.description {
+    width: 40%;
+}
+
+.video {
+    width: 60%;
+}
+
 /* Ends Description section */
