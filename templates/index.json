@@ -321,6 +321,43 @@
     },
     "2bf2c401-168c-405c-96a1-f46b9b14f4f8": {
       "type": "logo-list-section",
+      "blocks": {
+        "99e21e1e-f8e0-443d-b8a6-7277b3bc1d75": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jewerly2.png",
+            "title": "PROTECT JEWERLY",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "20121706-ddc8-4763-89fc-9ab08c1db604": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/light.png",
+            "title": "LIGHTWEIGHT",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "7d4c428b-ba79-429c-9d0c-ba53fcd64c50": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/comfy.png",
+            "title": "COMFORTABLE STRETCH",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "99e21e1e-f8e0-443d-b8a6-7277b3bc1d75",
+        "20121706-ddc8-4763-89fc-9ab08c1db604",
+        "7d4c428b-ba79-429c-9d0c-ba53fcd64c50"
+      ],
       "settings": {
         "justify_content": "around",
         "gap": false,
