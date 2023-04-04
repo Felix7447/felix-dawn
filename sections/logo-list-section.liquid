@@ -1,12 +1,13 @@
 {% liquid
   assign justify_content = section.settings.justify_content
+  assign gap = section.settings.gap
   assign text_align = section.settings.text_align
   assign title_size = section.settings.title_size
   assign display_paragraph = section.settings.display_paragraph
 %}
 
 <div class="logo-list-section">
-  <div class="logo-list-container page-width justify-{{- justify_content -}}">
+  <div class="logo-list-container page-width justify-{{- justify_content -}} {% if gap %}gap{% endif %} ">
     {% for item in section.blocks %}
       <div class="logo-list-item text-{{- text_align -}}">
         {% if item.settings.logo %}
@@ -49,10 +50,15 @@
         "default": "around"
       },
       {
-        "type": "header",
-        "content": "Item Settings"
+        "type": "checkbox",
+        "id": "gap",
+        "label": "Gap",
+        "default": false
       },
       {
+        "type": "header",
+        "content": "Item Settings"
+      }, {
         "type": "select",
         "id": "text_align",
         "label": "Text Align",
