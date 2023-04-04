@@ -226,7 +226,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/shiping.png",
             "title": "Shipping",
-            "text": "<p>Free standard US shipping. No minimums, no tiers, no fine print whatsoever.<\/p>",
+            "text": "Free standard US shipping. No minimums, no tiers, no fine print whatsoever.",
             "link": "",
             "link_text": "Learn more"
           }
@@ -236,7 +236,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/returns.png",
             "title": "Returns",
-            "text": "<p>We offer free exchanges + returns within 30 days of purchase.<\/p>",
+            "text": "We offer free exchanges + returns within 30 days of purchase.",
             "link": "",
             "link_text": "Learn more"
           }
@@ -246,7 +246,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/homegrown2.png",
             "title": "Homegrown Brand",
-            "text": "<p>With zero experience, grandma’s sewing machine and a whole lot of faith, the ....<\/p>",
+            "text": "With zero experience, grandma’s sewing machine and a whole lot of faith, the ....",
             "link": "",
             "link_text": "Learn more"
           }
@@ -256,7 +256,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/lock.png",
             "title": "Secure Payment",
-            "text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.<\/p><p><a href=\"\/collections\/all\" title=\"Todos los productos\">Learn more<\/a><\/p>",
+            "text": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.",
             "link": "",
             "link_text": ""
           }
