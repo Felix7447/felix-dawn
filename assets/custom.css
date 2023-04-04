@@ -338,6 +338,7 @@
 
 .description-section {
     padding-top: 3em;
+    position: relative;
 }
 
 .description-section-container {
