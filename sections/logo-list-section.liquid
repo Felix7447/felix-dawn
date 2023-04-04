@@ -4,6 +4,7 @@
   assign text_align = section.settings.text_align
   assign title_size = section.settings.title_size
   assign display_paragraph = section.settings.display_paragraph
+  assign paragraph_size = section.settings.paragraph_size
 %}
 
 <div class="logo-list-section">
@@ -18,7 +19,7 @@
             <b>{{ item.settings.title }}</b>
           </h3>
         {% endif %}
-        <p class="paragraph-{{- display_paragraph -}}">{{ item.settings.text }}</p>
+        <p class="paragraph-{{- display_paragraph -}} p-size-{{- paragraph_size -}}">{{ item.settings.text }}</p>
         <a href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
       </div>
     {% endfor %}
@@ -112,6 +113,20 @@
           }
         ],
         "default": "block"
+      }, {
+        "type": "select",
+        "id": "paragraph_size",
+        "label": "Paragraph Size",
+        "options": [
+          {
+            "label": "Small",
+            "value": "small"
+          }, {
+            "label": "Medium",
+            "value": "medium"
+          }
+        ],
+        "default": "small"
       }
     ],
     "blocks": [
