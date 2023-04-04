@@ -243,5 +243,9 @@
     vertical-align: middle;
 }
 
+.logo-list-item p {
+    display: inline;
+}
+
  /* Ends Logo List Section */
 
