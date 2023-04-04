@@ -51,6 +51,8 @@
         "7ccd67f1-fab1-4af2-9740-a7415baa085e"
       ],
       "settings": {
+        "justify_content": "around",
+        "text_align": "left"
       }
     },
     "main_product_home": {
@@ -208,6 +210,8 @@
         "db040dca-7b6f-4e78-b247-d391c377373d"
       ],
       "settings": {
+        "justify_content": "around",
+        "text_align": "center"
       }
     },
     "featured_collection": {
