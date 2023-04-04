@@ -157,11 +157,33 @@
             "link": "",
             "link_text": ""
           }
+        },
+        "7b7f9e88-38a7-40f9-b7d1-620b9a46e407": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/smallkey.png",
+            "title": "SMALL KEY",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "4b40a273-a40d-4576-87cd-54fe84e2b8fe": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/littlethings.png",
+            "title": "LITTLE THINGS",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "8ca32dc8-4106-46f6-8274-db6d44f60e5c",
-        "1f4d009a-4d3f-46af-a539-213771f010af"
+        "1f4d009a-4d3f-46af-a539-213771f010af",
+        "7b7f9e88-38a7-40f9-b7d1-620b9a46e407",
+        "4b40a273-a40d-4576-87cd-54fe84e2b8fe"
       ],
       "settings": {
       }
