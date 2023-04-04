@@ -228,7 +228,7 @@
 
 .logo-list-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo-list-item {
