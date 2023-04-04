@@ -1,5 +1,9 @@
+{% liquid
+  assign justify_content = section.settings.justify_content
+%}
+
 <div class="logo-list-section">
-  <div class="logo-list-container page-width">
+  <div class="logo-list-container page-width {{ justify_content }}">
     {% for item in section.blocks %}
       <div class="logo-list-item">
         {% if item.settings.logo %}
