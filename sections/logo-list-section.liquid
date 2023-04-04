@@ -11,9 +11,11 @@
         {% if item.settings.logo %}
           <img src="{{ item.settings.logo | img_url: 'master' }}" alt="{{ item.settings.logo.alt }}">
         {% endif %}
-        <h3 class="size-{{- title_size -}}">
-          <b>{{ item.settings.title }}</b>
-        </h3>
+        {% if tem.settings.title %}
+          <h3 class="size-{{- title_size -}}">
+            <b>{{ item.settings.title }}</b>
+          </h3>
+        {% endif %}
         <p>{{ item.settings.text }}</p>
         <a href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
       </div>
