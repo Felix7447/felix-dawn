@@ -7,7 +7,7 @@
 %}
 
 <div class="logo-list-section">
-  <div class="logo-list-container page-width justify-{{- justify_content -}} {% if gap %}gap{% endif %} ">
+  <div class="logo-list-container page-width justify-{{- justify_content -}} {% if gap %} gap {% endif %} ">
     {% for item in section.blocks %}
       <div class="logo-list-item text-{{- text_align -}}">
         {% if item.settings.logo %}
