@@ -2,6 +2,7 @@
   assign justify_content = section.settings.justify_content
   assign text_align = section.settings.text_align
   assign title_size = section.settings.title_size
+  assign display_paragraph = section.settings.display_paragraph
 %}
 
 <div class="logo-list-section">
@@ -16,7 +17,7 @@
             <b>{{ item.settings.title }}</b>
           </h3>
         {% endif %}
-        <p class="paragraph-{{- text_align -}}">{{ item.settings.text }}</p>
+        <p class="paragraph-{{- display_paragraph -}}">{{ item.settings.text }}</p>
         <a href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
       </div>
     {% endfor %}
