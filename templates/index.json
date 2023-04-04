@@ -319,6 +319,18 @@
         "padding_bottom": 36
       }
     },
+    "2bf2c401-168c-405c-96a1-f46b9b14f4f8": {
+      "type": "logo-list-section",
+      "settings": {
+        "justify_content": "around",
+        "gap": false,
+        "border": false,
+        "text_align": "center",
+        "title_size": "small",
+        "display_paragraph": "block",
+        "paragraph_size": "small"
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -340,6 +352,7 @@
     "caae989e-8b94-4781-9064-42e3682d4da4",
     "053a1fe3-a738-4fd4-874c-7c0958b3c8e4",
     "featured_collection",
+    "2bf2c401-168c-405c-96a1-f46b9b14f4f8",
     "video"
   ]
 }
