@@ -224,3 +224,12 @@
 
 /* ENDS MAIN PRODUCT */
 
+/* Logo List Section */
+
+.logo-list-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+ /* Ends Logo List Section */
+
