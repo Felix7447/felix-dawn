@@ -52,6 +52,7 @@
       ],
       "settings": {
         "justify_content": "around",
+        "gap": false,
         "text_align": "left",
         "title_size": "medium",
         "display_paragraph": "inline"
@@ -213,6 +214,7 @@
       ],
       "settings": {
         "justify_content": "around",
+        "gap": false,
         "text_align": "center",
         "title_size": "small",
         "display_paragraph": "block"
@@ -270,6 +272,7 @@
       ],
       "settings": {
         "justify_content": "between",
+        "gap": true,
         "text_align": "left",
         "title_size": "medium",
         "display_paragraph": "block"
