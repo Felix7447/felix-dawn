@@ -230,10 +230,21 @@
             "link": "",
             "link_text": "Learn more"
           }
+        },
+        "89388cfb-8b95-4a27-9ee0-21d3985aecd9": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/returns.png",
+            "title": "Returns",
+            "text": "We offer free exchanges + returns within 30 days of purchase.",
+            "link": "",
+            "link_text": " Learn more"
+          }
         }
       },
       "block_order": [
-        "d6e799d9-5b29-465b-9753-52e9e16ac59b"
+        "d6e799d9-5b29-465b-9753-52e9e16ac59b",
+        "89388cfb-8b95-4a27-9ee0-21d3985aecd9"
       ],
       "settings": {
         "justify_content": "between",
