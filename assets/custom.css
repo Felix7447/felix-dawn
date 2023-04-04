@@ -243,6 +243,14 @@
     display: inline-block;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
 .logo-list-item img {
     vertical-align: middle;
 }
@@ -255,6 +263,10 @@
     display: inline;
     font-size: 11px;
     margin-left: 4px;
+}
+
+.paragraph-block { 
+    display: block !important;
 }
 
  /* Ends Logo List Section */
