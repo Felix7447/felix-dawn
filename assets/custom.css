@@ -232,7 +232,7 @@
 }
 
 .logo-list-item {
-    width: auto;
+    width: 4em;
     height: 2em;
     border: 2px blue solid;
 }
