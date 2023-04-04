@@ -11,7 +11,7 @@
         {% if item.settings.logo %}
           <img src="{{ item.settings.logo | img_url: 'master' }}" alt="{{ item.settings.logo.alt }}">
         {% endif %}
-        {% if tem.settings.title %}
+        {% if item.settings.title %}
           <h3 class="size-{{- title_size -}}">
             <b>{{ item.settings.title }}</b>
           </h3>
