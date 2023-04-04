@@ -246,6 +246,7 @@
 .logo-list-item p {
     display: inline;
     font-size: 11px;
+    margin-left: 4px;
 }
 
  /* Ends Logo List Section */
