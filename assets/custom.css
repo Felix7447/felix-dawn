@@ -226,12 +226,21 @@
 
 /* Logo List Section */
 
+.logo-list-section {
+    padding: 1em 0;
+}
+
 .logo-list-container {
     display: flex;
     justify-content: space-between;
 }
 
 .logo-list-item {
+    display: inline-block;
+}
+
+.logo-list-item img {
+    vertical-align: middle;
 }
 
  /* Ends Logo List Section */
