@@ -7,10 +7,10 @@
           "type": "block",
           "settings": {
             "logo": "shopify:\/\/shop_images\/jewerly.png",
-            "title": "Hi",
+            "title": "",
             "text": "asdfasdfsdafsdaf",
-            "link": "shopify:\/\/collections\/all",
-            "link_text": "Products"
+            "link": "",
+            "link_text": ""
           }
         },
         "b50aa392-ef27-42bf-9d5e-3c959eee65b5": {
