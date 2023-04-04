@@ -17,6 +17,26 @@
 {% schema %}
   {
     "name": "Description & Video",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }, {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description"
+      }, {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      }, {
+        "type": "video_url",
+        "id": "video_url",
+        "label": "Video Url",
+        "accept": ["youtube"]
+      }
+    ],
     "presets": [
       {
         "name": "Description & Video"
