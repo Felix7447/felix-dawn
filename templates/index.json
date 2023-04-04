@@ -240,11 +240,22 @@
             "link": "",
             "link_text": "Learn more"
           }
+        },
+        "8c40f179-0197-42a2-9e46-586d65ad417f": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/homegrown2.png",
+            "title": "Homegrown Brand",
+            "text": "With zero experience, grandma’s sewing machine and a whole lot of faith, the ....",
+            "link": "",
+            "link_text": "Learn more"
+          }
         }
       },
       "block_order": [
         "d6e799d9-5b29-465b-9753-52e9e16ac59b",
-        "89388cfb-8b95-4a27-9ee0-21d3985aecd9"
+        "89388cfb-8b95-4a27-9ee0-21d3985aecd9",
+        "8c40f179-0197-42a2-9e46-586d65ad417f"
       ],
       "settings": {
         "justify_content": "between",
