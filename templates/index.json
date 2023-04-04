@@ -2,6 +2,20 @@
   "sections": {
     "1fcb48dc-6ffd-491c-adb8-8e335af749c1": {
       "type": "logo-list-section",
+      "blocks": {
+        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jewerly.png",
+            "title": "Hi",
+            "text": "asdfasdfsdafsdaf",
+            "link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f"
+      ],
       "settings": {
       }
     },
