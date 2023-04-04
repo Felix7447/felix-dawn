@@ -8,14 +8,47 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/jewerly.png",
             "title": "",
-            "text": "asdfasdfsdafsdaf",
+            "text": "Jewerly",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "821b7f13-26e8-43d6-b0b5-19e13b8916b9": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pocket.png",
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "32449b42-ef57-4d88-8bee-fb6523bb3fc1": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/water.png",
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "7ccd67f1-fab1-4af2-9740-a7415baa085e": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/homegrown.png",
+            "title": "",
+            "text": "",
             "link": "",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f"
+        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f",
+        "821b7f13-26e8-43d6-b0b5-19e13b8916b9",
+        "32449b42-ef57-4d88-8bee-fb6523bb3fc1",
+        "7ccd67f1-fab1-4af2-9740-a7415baa085e"
       ],
       "settings": {
       }
