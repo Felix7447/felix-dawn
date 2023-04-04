@@ -16,7 +16,7 @@
             <b>{{ item.settings.title }}</b>
           </h3>
         {% endif %}
-        <p>{{ item.settings.text }}</p>
+        <p class="paragraph-{{- text_align -}}">{{ item.settings.text }}</p>
         <a href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
       </div>
     {% endfor %}
@@ -85,6 +85,20 @@
           }
         ],
         "default": "medium"
+      }, {
+        "type": "select",
+        "id": "display_paragraph",
+        "label": "Display Paragraph",
+        "options": [
+          {
+            "label": "Inline",
+            "value": "inline"
+          }, {
+            "label": "Block",
+            "value": "block"
+          }
+        ],
+        "default": "block"
       }
     ],
     "blocks": [
