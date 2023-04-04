@@ -253,6 +253,10 @@
     gap: 2em;
 }
 
+.border {
+    padding-bottom: 3em;
+}
+
 .border::before {
     content: "";
     position: absolute;
