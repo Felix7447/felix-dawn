@@ -51,10 +51,10 @@
         "7ccd67f1-fab1-4af2-9740-a7415baa085e"
       ],
       "settings": {
-        "justify_content": "between",
+        "justify_content": "around",
         "text_align": "left",
         "title_size": "medium",
-        "display_paragraph": "inline"
+        "display_paragraph": "block"
       }
     },
     "main_product_home": {
