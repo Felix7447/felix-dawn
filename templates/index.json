@@ -8,7 +8,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/jewerly.png",
             "title": "",
-            "text": "<p>Protect your Jewelry<\/p>",
+            "text": "Protect your Jewelry",
             "link": "",
             "link_text": ""
           }
@@ -18,7 +18,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pocket.png",
             "title": "",
-            "text": "<p>Hidden, Secure Pocket<\/p>",
+            "text": "Hidden, Secure Pocket",
             "link": "",
             "link_text": ""
           }
@@ -28,7 +28,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/water.png",
             "title": "",
-            "text": "<p>Water Friendly + Washable<\/p>",
+            "text": "Water Friendly + Washable",
             "link": "",
             "link_text": ""
           }
@@ -38,7 +38,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/homegrown.png",
             "title": "",
-            "text": "<p>Homegrown Brand + High-Quality Materials<\/p>",
+            "text": "Homegrown Brand + High-Quality Materials",
             "link": "",
             "link_text": ""
           }
@@ -54,7 +54,7 @@
         "justify_content": "around",
         "text_align": "left",
         "title_size": "medium",
-        "display_paragraph": "block"
+        "display_paragraph": "inline"
       }
     },
     "main_product_home": {
