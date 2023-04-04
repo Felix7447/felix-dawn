@@ -52,7 +52,8 @@
       ],
       "settings": {
         "justify_content": "around",
-        "text_align": "left"
+        "text_align": "left",
+        "title_size": "medium"
       }
     },
     "main_product_home": {
@@ -211,7 +212,8 @@
       ],
       "settings": {
         "justify_content": "around",
-        "text_align": "center"
+        "text_align": "center",
+        "title_size": "small"
       }
     },
     "featured_collection": {
