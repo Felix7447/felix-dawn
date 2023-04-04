@@ -250,12 +250,23 @@
             "link": "",
             "link_text": "Learn more"
           }
+        },
+        "4ac8dbcd-d4ea-4813-abe1-063d33ba8f22": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/lock.png",
+            "title": "Secure Payment",
+            "text": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.",
+            "link": "",
+            "link_text": "Learn more"
+          }
         }
       },
       "block_order": [
         "d6e799d9-5b29-465b-9753-52e9e16ac59b",
         "89388cfb-8b95-4a27-9ee0-21d3985aecd9",
-        "8c40f179-0197-42a2-9e46-586d65ad417f"
+        "8c40f179-0197-42a2-9e46-586d65ad417f",
+        "4ac8dbcd-d4ea-4813-abe1-063d33ba8f22"
       ],
       "settings": {
         "justify_content": "between",
