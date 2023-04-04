@@ -241,11 +241,14 @@
 
 .logo-list-item {
     display: inline-block;
-    font-family: "DM Sans" !important;
 }
 
 .logo-list-item img {
     vertical-align: middle;
+}
+
+.logo-list-item h3 {
+    font-family: "DM Sans" !important;
 }
 
 .logo-list-item p {
