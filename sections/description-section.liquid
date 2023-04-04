@@ -1,19 +1,11 @@
-<div class="description-section">
-  <div class="logo-list-container page-width justify-{{- justify_content -}} {% if gap %} gap {% endif %} {% if border %} border {% endif %}">
-    {% for item in section.blocks %}
-      <div class="logo-list-item text-{{- text_align -}}">
-        {% if item.settings.logo %}
-          <img src="{{ item.settings.logo | img_url: 'master' }}" alt="{{ item.settings.logo.alt }}">
-        {% endif %}
-        {% if item.settings.title != blank %}
-          <h3 class="title-size-{{- title_size -}}">
-            <b>{{ item.settings.title }}</b>
-          </h3>
-        {% endif %}
-        <p class="paragraph-{{- display_paragraph }} p-size-{{- paragraph_size -}}">{{ item.settings.text }}</p>
-        <a class="p-size-{{- paragraph_size }} link" href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
-      </div>
-    {% endfor %}
+<div class="description-section page-width">
+  <div class="description-section-container">
+    <div class="description">
+      <h1>title</h1>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+    </div>
+    <div class="video"></div>
   </div>
 </div>
 
