@@ -187,6 +187,16 @@
             "link": "",
             "link_text": ""
           }
+        },
+        "db040dca-7b6f-4e78-b247-d391c377373d": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/airpods.png",
+            "title": "AIRPODS",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
@@ -194,7 +204,8 @@
         "1f4d009a-4d3f-46af-a539-213771f010af",
         "7b7f9e88-38a7-40f9-b7d1-620b9a46e407",
         "4b40a273-a40d-4576-87cd-54fe84e2b8fe",
-        "0ca4bac8-a5ed-4460-b645-87ff5eeb4772"
+        "0ca4bac8-a5ed-4460-b645-87ff5eeb4772",
+        "db040dca-7b6f-4e78-b247-d391c377373d"
       ],
       "settings": {
       }
