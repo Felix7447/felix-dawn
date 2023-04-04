@@ -231,5 +231,11 @@
     justify-content: space-around;
 }
 
+.logo-list-item {
+    width: auto;
+    height: 2em;
+    border: 2px blue solid;
+}
+
  /* Ends Logo List Section */
 
