@@ -234,7 +234,8 @@
 .logo-list-item {
     /* width: 4em;
     height: 2em; */
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
+    display: flex;
 }
 
  /* Ends Logo List Section */
