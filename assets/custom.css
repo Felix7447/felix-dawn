@@ -351,11 +351,12 @@
 }
 
 .description h1 {
+    font-family: "DM Sans";
     margin-top: 0;
 }
 
 .description p {
-    padding-right: 20%;
+    padding-right: 15%;
 }
 
 .description a {
