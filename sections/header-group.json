@@ -25,8 +25,8 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-1",
-        "logo_position": "middle-left",
-        "menu": "main-menu",
+        "logo_position": "middle-center",
+        "menu": "ringbandits-header-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
