@@ -220,6 +220,21 @@
     },
     "053a1fe3-a738-4fd4-874c-7c0958b3c8e4": {
       "type": "logo-list-section",
+      "blocks": {
+        "d6e799d9-5b29-465b-9753-52e9e16ac59b": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/shiping.png",
+            "title": "Shipping",
+            "text": "Free standard US shipping. No minimums, no tiers, no fine print whatsoever.",
+            "link": "",
+            "link_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "d6e799d9-5b29-465b-9753-52e9e16ac59b"
+      ],
       "settings": {
         "justify_content": "between",
         "text_align": "left",
