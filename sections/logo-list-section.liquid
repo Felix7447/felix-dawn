@@ -1,6 +1,6 @@
 <div class="logo-list-section">
   <div class="logo-list-container page-width">
-    {% for item in section.blocks %}
+    {% for item in section.blocks.settings %}
       <div class="logo-list-item">
         <img src="{{ item.logo | img_url: 'master' }}" alt="{{ item.logo.alt }}">
         <h3>{{ item.title }}</h3>
