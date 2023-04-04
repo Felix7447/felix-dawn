@@ -231,7 +231,7 @@
 /* Logo List Section */
 
 .logo-list-section {
-    padding-top: 4em;
+    padding-top: 1em;
     position: relative;
 }
 
@@ -262,7 +262,7 @@
     position: absolute;
     max-width: calc(100% - 3em);
     width: 85%;
-    height: 3px;
+    height: 2px;
     background-color: black;
     bottom: 0;
     left: 50%;
