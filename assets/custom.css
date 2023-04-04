@@ -343,6 +343,7 @@
 .description-section-container {
     display: flex;
     justify-content: space-around;
+    padding: 3em 0;
 }
 
 .description {
@@ -350,6 +351,10 @@
 }
 
 .video {
+    width: 60%;
+}
+
+.video iframe {
     width: 60%;
 }
 
