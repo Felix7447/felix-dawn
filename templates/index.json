@@ -224,31 +224,9 @@
         "paragraph_size": "small"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "caae989e-8b94-4781-9064-42e3682d4da4": {
+      "type": "description-section",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
       }
     },
     "053a1fe3-a738-4fd4-874c-7c0958b3c8e4": {
@@ -311,6 +289,33 @@
         "paragraph_size": "medium"
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -329,8 +334,9 @@
     "1fcb48dc-6ffd-491c-adb8-8e335af749c1",
     "main_product_home",
     "ff82615a-acb7-4b65-bce5-0d0a8b977c4f",
-    "featured_collection",
+    "caae989e-8b94-4781-9064-42e3682d4da4",
     "053a1fe3-a738-4fd4-874c-7c0958b3c8e4",
+    "featured_collection",
     "video"
   ]
 }
