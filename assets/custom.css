@@ -88,6 +88,10 @@
     transform: rotate(-90deg) scale(2) !important;
 }
 
+.slider-counter { 
+    display: none !important;
+}
+
 /* Product Info */
 .product__rating-share {
     display: flex;
