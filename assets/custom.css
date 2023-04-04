@@ -307,6 +307,7 @@
 
 .paragraph-block { 
     display: block !important;
+    margin-bottom: 0;
 }
 
 /* Link */
