@@ -351,12 +351,23 @@
             "link": "",
             "link_text": ""
           }
+        },
+        "b3631f39-f8b5-400e-9c63-206a8cc6f73d": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/water2.png",
+            "title": "WATER FRIENDLY",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "99e21e1e-f8e0-443d-b8a6-7277b3bc1d75",
         "20121706-ddc8-4763-89fc-9ab08c1db604",
-        "7d4c428b-ba79-429c-9d0c-ba53fcd64c50"
+        "7d4c428b-ba79-429c-9d0c-ba53fcd64c50",
+        "b3631f39-f8b5-400e-9c63-206a8cc6f73d"
       ],
       "settings": {
         "justify_content": "around",
