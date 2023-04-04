@@ -248,6 +248,10 @@
     justify-content: space-between;
 }
 
+.gap {
+    gap: 2em;
+}
+
 
 /* Items */
 .logo-list-item {
