@@ -8,7 +8,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/jewerly.png",
             "title": "",
-            "text": "Protect your Jewelry",
+            "text": "<p>Protect your Jewelry<\/p>",
             "link": "",
             "link_text": ""
           }
@@ -18,7 +18,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/pocket.png",
             "title": "",
-            "text": "Hidden, Secure Pocket",
+            "text": "<p>Hidden, Secure Pocket<\/p>",
             "link": "",
             "link_text": ""
           }
@@ -28,7 +28,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/water.png",
             "title": "",
-            "text": "Water Friendly + Washable",
+            "text": "<p>Water Friendly + Washable<\/p>",
             "link": "",
             "link_text": ""
           }
@@ -38,7 +38,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/homegrown.png",
             "title": "",
-            "text": "Homegrown Brand + High-Quality Materials",
+            "text": "<p>Homegrown Brand + High-Quality Materials<\/p>",
             "link": "",
             "link_text": ""
           }
@@ -226,7 +226,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/shiping.png",
             "title": "Shipping",
-            "text": "Free standard US shipping. No minimums, no tiers, no fine print whatsoever.",
+            "text": "<p>Free standard US shipping. No minimums, no tiers, no fine print whatsoever.<\/p>",
             "link": "",
             "link_text": "Learn more"
           }
@@ -236,7 +236,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/returns.png",
             "title": "Returns",
-            "text": "We offer free exchanges + returns within 30 days of purchase.",
+            "text": "<p>We offer free exchanges + returns within 30 days of purchase.<\/p>",
             "link": "",
             "link_text": "Learn more"
           }
@@ -246,7 +246,7 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/homegrown2.png",
             "title": "Homegrown Brand",
-            "text": "With zero experience, grandma’s sewing machine and a whole lot of faith, the ....",
+            "text": "<p>With zero experience, grandma’s sewing machine and a whole lot of faith, the ....<\/p>",
             "link": "",
             "link_text": "Learn more"
           }
@@ -256,9 +256,9 @@
           "settings": {
             "logo": "shopify:\/\/shop_images\/lock.png",
             "title": "Secure Payment",
-            "text": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.",
+            "text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.<\/p><p><a href=\"\/collections\/all\" title=\"Todos los productos\">Learn more<\/a><\/p>",
             "link": "",
-            "link_text": "Learn more"
+            "link_text": ""
           }
         }
       },
