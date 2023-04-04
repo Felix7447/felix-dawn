@@ -2,19 +2,6 @@
   "sections": {
     "1fcb48dc-6ffd-491c-adb8-8e335af749c1": {
       "type": "logo-list-section",
-      "blocks": {
-        "9c82fb57-6e09-42a6-8c2d-fcb65e50fde6": {
-          "type": "block",
-          "settings": {
-            "title": "Hi",
-            "text": "asdfsdfdf",
-            "link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "9c82fb57-6e09-42a6-8c2d-fcb65e50fde6"
-      ],
       "settings": {
       }
     },

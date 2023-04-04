@@ -232,8 +232,8 @@
 }
 
 .logo-list-item {
-    width: 4em;
-    height: 2em;
+    /* width: 4em;
+    height: 2em; */
     border: 2px blue solid;
 }
 
