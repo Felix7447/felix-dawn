@@ -20,7 +20,7 @@
           </h3>
         {% endif %}
         <p class="paragraph-{{- display_paragraph }} p-size-{{- paragraph_size -}}">{{ item.settings.text }}</p>
-        <a href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
+        <a class="p-size-{{- paragraph_size }} link" href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
       </div>
     {% endfor %}
 
