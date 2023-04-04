@@ -358,6 +358,10 @@
     padding-right: 20%;
 }
 
+.description a {
+    color: #000000;
+}
+
 .video {
     width: 60%;
 }
