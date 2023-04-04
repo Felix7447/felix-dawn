@@ -252,6 +252,18 @@
     gap: 2em;
 }
 
+.border::before {
+    content: "";
+    position: absolute;
+    max-width: calc(100% - 3em);
+    width: 85%;
+    height: 3px;
+    background-color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 
 /* Items */
 .logo-list-item {
