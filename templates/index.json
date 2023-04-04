@@ -12,10 +12,20 @@
             "link": "shopify:\/\/collections\/all",
             "link_text": "Products"
           }
+        },
+        "b50aa392-ef27-42bf-9d5e-3c959eee65b5": {
+          "type": "block",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
-        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f"
+        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f",
+        "b50aa392-ef27-42bf-9d5e-3c959eee65b5"
       ],
       "settings": {
       }
