@@ -254,7 +254,7 @@
 }
 
 .border {
-    padding-bottom: 3em;
+    padding-bottom: 4em;
 }
 
 .border::before {
@@ -332,13 +332,15 @@
     color: black;
 }
 
- /* Ends Logo List Section */
+/* Ends Logo List Section */
+
 
 /* Description section */
 
 .description-section {
     padding-top: 3em;
     position: relative;
+    margin-bottom: 4em;
 }
 
 .description-section-container {
