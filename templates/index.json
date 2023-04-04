@@ -1,5 +1,62 @@
 {
   "sections": {
+    "1fcb48dc-6ffd-491c-adb8-8e335af749c1": {
+      "type": "logo-list-section",
+      "blocks": {
+        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jewerly.png",
+            "title": "",
+            "text": "<p>Protect your Jewelry<\/p>",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "821b7f13-26e8-43d6-b0b5-19e13b8916b9": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/pocket.png",
+            "title": "",
+            "text": "<p>Hidden, Secure Pocket<\/p>",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "32449b42-ef57-4d88-8bee-fb6523bb3fc1": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/water.png",
+            "title": "",
+            "text": "<p>Water Friendly + Washable<\/p>",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "7ccd67f1-fab1-4af2-9740-a7415baa085e": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/homegrown.png",
+            "title": "",
+            "text": "<p>Homegrown Brand + High-Quality Materials<\/p>",
+            "link": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "2ff02a04-ba1c-4aed-9e3c-c9ec6123372f",
+        "821b7f13-26e8-43d6-b0b5-19e13b8916b9",
+        "32449b42-ef57-4d88-8bee-fb6523bb3fc1",
+        "7ccd67f1-fab1-4af2-9740-a7415baa085e"
+      ],
+      "settings": {
+        "justify_content": "between",
+        "text_align": "left",
+        "title_size": "medium",
+        "display_paragraph": "inline"
+      }
+    },
     "main_product_home": {
       "type": "main-product-home",
       "blocks": {
@@ -8,13 +65,13 @@
           "settings": {
           }
         },
-        "title": {
+        "3bfd59ad-5061-4e65-9990-ec2c63abb306": {
           "type": "title",
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -34,149 +91,188 @@
           "settings": {
           }
         },
+        "691132d2-8bfb-4040-98c8-95057235693a": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "WOULD YOU LIKE TO ADD",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 4,
+            "products_per_page": 4,
+            "pagination_style": "dots",
+            "image_ratio": "portrait",
+            "enable_quick_add": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "show_dynamic_checkout": false,
+            "payment_methods_image": "shopify:\/\/shop_images\/payment-methods.png"
           }
         }
       },
       "block_order": [
         "rating",
-        "caption",
+        "3bfd59ad-5061-4e65-9990-ec2c63abb306",
+        "description",
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "691132d2-8bfb-4040-98c8-95057235693a",
+        "buy_buttons"
       ],
       "settings": {
+        "main_product": "cheetah-reign-original-bandit",
+        "share_icon": "shopify:\/\/shop_images\/share.png",
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "image_banner": {
-      "type": "image-banner",
+    "ff82615a-acb7-4b65-bce5-0d0a8b977c4f": {
+      "type": "logo-list-section",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "8ca32dc8-4106-46f6-8274-db6d44f60e5c": {
+          "type": "block",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "logo": "shopify:\/\/shop_images\/jewerly2.png",
+            "title": "JEWERLY",
+            "text": "",
+            "link": "",
+            "link_text": ""
           }
         },
-        "text": {
-          "type": "text",
+        "1f4d009a-4d3f-46af-a539-213771f010af": {
+          "type": "block",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "logo": "shopify:\/\/shop_images\/money.png",
+            "title": "MONEY",
+            "text": "",
+            "link": "",
+            "link_text": ""
           }
         },
-        "button": {
-          "type": "buttons",
+        "7b7f9e88-38a7-40f9-b7d1-620b9a46e407": {
+          "type": "block",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "logo": "shopify:\/\/shop_images\/smallkey.png",
+            "title": "SMALL KEY",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "4b40a273-a40d-4576-87cd-54fe84e2b8fe": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/littlethings.png",
+            "title": "LITTLE THINGS",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "0ca4bac8-a5ed-4460-b645-87ff5eeb4772": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/meds.png",
+            "title": "DAILY MEDS",
+            "text": "",
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "db040dca-7b6f-4e78-b247-d391c377373d": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/airpods.png",
+            "title": "AIRPODS",
+            "text": "",
+            "link": "",
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "8ca32dc8-4106-46f6-8274-db6d44f60e5c",
+        "1f4d009a-4d3f-46af-a539-213771f010af",
+        "7b7f9e88-38a7-40f9-b7d1-620b9a46e407",
+        "4b40a273-a40d-4576-87cd-54fe84e2b8fe",
+        "0ca4bac8-a5ed-4460-b645-87ff5eeb4772",
+        "db040dca-7b6f-4e78-b247-d391c377373d"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "justify_content": "around",
+        "text_align": "center",
+        "title_size": "small",
+        "display_paragraph": "block"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "053a1fe3-a738-4fd4-874c-7c0958b3c8e4": {
+      "type": "logo-list-section",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "d6e799d9-5b29-465b-9753-52e9e16ac59b": {
+          "type": "block",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "logo": "shopify:\/\/shop_images\/shiping.png",
+            "title": "Shipping",
+            "text": "<p>Free standard US shipping. No minimums, no tiers, no fine print whatsoever.<\/p>",
+            "link": "",
+            "link_text": "Learn more"
           }
         },
-        "text": {
-          "type": "text",
+        "89388cfb-8b95-4a27-9ee0-21d3985aecd9": {
+          "type": "block",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "logo": "shopify:\/\/shop_images\/returns.png",
+            "title": "Returns",
+            "text": "<p>We offer free exchanges + returns within 30 days of purchase.<\/p>",
+            "link": "",
+            "link_text": "Learn more"
+          }
+        },
+        "8c40f179-0197-42a2-9e46-586d65ad417f": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/homegrown2.png",
+            "title": "Homegrown Brand",
+            "text": "<p>With zero experience, grandma’s sewing machine and a whole lot of faith, the ....<\/p>",
+            "link": "",
+            "link_text": "Learn more"
+          }
+        },
+        "4ac8dbcd-d4ea-4813-abe1-063d33ba8f22": {
+          "type": "block",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/lock.png",
+            "title": "Secure Payment",
+            "text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.<\/p><p><a href=\"\/collections\/all\" title=\"Todos los productos\">Learn more<\/a><\/p>",
+            "link": "",
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "d6e799d9-5b29-465b-9753-52e9e16ac59b",
+        "89388cfb-8b95-4a27-9ee0-21d3985aecd9",
+        "8c40f179-0197-42a2-9e46-586d65ad417f",
+        "4ac8dbcd-d4ea-4813-abe1-063d33ba8f22"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "justify_content": "between",
+        "text_align": "left",
+        "title_size": "medium",
+        "display_paragraph": "block"
       }
     },
     "featured_collection": {
@@ -184,56 +280,25 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -249,68 +314,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "1fcb48dc-6ffd-491c-adb8-8e335af749c1",
     "main_product_home",
-    "image_banner",
-    "rich_text",
+    "ff82615a-acb7-4b65-bce5-0d0a8b977c4f",
+    "053a1fe3-a738-4fd4-874c-7c0958b3c8e4",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "video"
   ]
 }
