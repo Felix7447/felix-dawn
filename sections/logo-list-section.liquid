@@ -1,6 +1,7 @@
 {% liquid
   assign justify_content = section.settings.justify_content
   assign text_align = section.settings.text_align
+  assign title_size = section.settings.title_size
 %}
 
 <div class="logo-list-section">
@@ -10,7 +11,7 @@
         {% if item.settings.logo %}
           <img src="{{ item.settings.logo | img_url: 'master' }}" alt="{{ item.settings.logo.alt }}">
         {% endif %}
-        <h3>{{ item.settings.title }}</h3>
+        <h3 class="size-{{- title_size -}}">{{ item.settings.title }}</h3>
         <p>{{ item.settings.text }}</p>
         <a href="{{ item.settings.link }}">{{ item.settings.link_text }}</a>
       </div>
@@ -26,7 +27,8 @@
       {
         "type": "header",
         "content": "Container settings"
-      }, {
+      },
+      {
         "type": "select",
         "id": "justify_content",
         "label": "Justify Content",
@@ -40,10 +42,12 @@
           }
         ],
         "default": "around"
-      }, {
+      },
+      {
         "type": "header",
         "content": "Item Settings"
-      }, {
+      },
+      {
         "type": "select",
         "id": "text_align",
         "label": "Text Align",
@@ -60,6 +64,23 @@
           }
         ],
         "default": "left"
+      }, {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Size",
+        "options": [
+          {
+            "label": "small",
+            "value": "small"
+          }, {
+            "label": "medium",
+            "value": "medium"
+          }, {
+            "label": "large",
+            "value": "large"
+          }
+        ],
+        "default": "medium"
       }
     ],
     "blocks": [
