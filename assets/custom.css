@@ -236,8 +236,15 @@
 
 .logo-list-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+
+.justify-around { 
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .logo-list-item {
