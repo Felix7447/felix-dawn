@@ -289,8 +289,11 @@
 
 /* Paragraph */
 .logo-list-item p {
-    display: inline;
     font-size: 11px;
+}
+
+.paragraph-inline {
+    display: inline !important;
     margin-left: 4px;
 }
 
