@@ -350,6 +350,10 @@
     width: 40%;
 }
 
+.description p {
+    padding-right: 20%;
+}
+
 .video {
     width: 60%;
 }
