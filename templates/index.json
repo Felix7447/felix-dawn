@@ -218,6 +218,15 @@
         "display_paragraph": "block"
       }
     },
+    "053a1fe3-a738-4fd4-874c-7c0958b3c8e4": {
+      "type": "logo-list-section",
+      "settings": {
+        "justify_content": "between",
+        "text_align": "left",
+        "title_size": "medium",
+        "display_paragraph": "block"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -263,6 +272,7 @@
     "1fcb48dc-6ffd-491c-adb8-8e335af749c1",
     "main_product_home",
     "ff82615a-acb7-4b65-bce5-0d0a8b977c4f",
+    "053a1fe3-a738-4fd4-874c-7c0958b3c8e4",
     "featured_collection",
     "video"
   ]
