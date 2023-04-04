@@ -17,6 +17,25 @@
 {% schema %}
   {
     "name": "logo-list-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Container settings"
+      }, {
+        "type": "select",
+        "id": "justify_content",
+        "label": "Justify Content",
+        "options": [
+          {
+            "label": "around",
+            "value": "around"
+          }, {
+            "label": "between",
+            "value": "between"
+          }
+        ]
+      }
+    ],
     "blocks": [
       {
         "name": "logo-list-item",
