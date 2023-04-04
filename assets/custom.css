@@ -232,7 +232,7 @@
 
 .logo-list-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo-list-item {
