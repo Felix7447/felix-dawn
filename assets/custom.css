@@ -411,4 +411,13 @@
     width: 46%;
 }
 
+.rich-text__buttons {
+    height: 50px;
+    margin-top: 1.6em;
+}
+
+.rich-text__buttons a {
+    width: 50%;
+}
+
 /* Ends Image Banner section */
