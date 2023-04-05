@@ -423,6 +423,7 @@
 .rich-text__input input {
     width: 80%;
     padding: 1em;
+    border: none;
 }
 
 .rich-text__input button {
