@@ -391,6 +391,7 @@
 
 .rich-text__wrapper {
     display: block !important;
+    margin: 4em 0;
 }
 
 .rich-text__blocks {
