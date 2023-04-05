@@ -396,6 +396,7 @@
 .rich-text__blocks {
     display: flex;
     justify-content: space-around;
+    max-width: 100% !important;
     width: 100%;
 }
 
