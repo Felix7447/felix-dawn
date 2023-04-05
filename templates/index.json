@@ -367,19 +367,6 @@
         "show_text_below": true
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -416,7 +403,6 @@
     "053a1fe3-a738-4fd4-874c-7c0958b3c8e4",
     "2bf2c401-168c-405c-96a1-f46b9b14f4f8",
     "a4f571bb-5c6b-427a-b2fe-2627ae926020",
-    "video",
     "featured_collection"
   ]
 }
