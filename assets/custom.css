@@ -400,6 +400,10 @@
     width: 100%;
 }
 
+.rich-text__heading {
+    align-self: center;
+}
+
 .rich-text__info {
     width: 40%;
 }
