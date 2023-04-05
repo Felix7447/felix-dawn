@@ -380,12 +380,7 @@
         "template--18468542873901__db024bab-159d-4691-868f-395e424e0400-16807048614da85cda-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--18468542873901__db024bab-159d-4691-868f-395e424e0400-16807048614da85cda-2": {
-          "type": "button",
-          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false,
@@ -397,8 +392,7 @@
       },
       "block_order": [
         "template--18468542873901__db024bab-159d-4691-868f-395e424e0400-16807048614da85cda-0",
-        "template--18468542873901__db024bab-159d-4691-868f-395e424e0400-16807048614da85cda-1",
-        "template--18468542873901__db024bab-159d-4691-868f-395e424e0400-16807048614da85cda-2"
+        "template--18468542873901__db024bab-159d-4691-868f-395e424e0400-16807048614da85cda-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -422,12 +416,7 @@
         "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-2": {
-          "type": "button",
-          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false,
@@ -439,12 +428,11 @@
       },
       "block_order": [
         "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-0",
-        "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-1",
-        "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-2"
+        "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-1"
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
