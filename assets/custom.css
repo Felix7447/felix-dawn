@@ -418,6 +418,9 @@
 
 .rich-text__buttons a {
     width: 50%;
+    background-color: rgba(190, 211, 228, 1);
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
 }
 
 /* Ends Image Banner section */
