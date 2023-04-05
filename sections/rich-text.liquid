@@ -46,6 +46,9 @@
             </p>
             {%- when 'text' -%}
             <div class="rich-text__info">
+              {% if block.settings.subscribe_input %}
+                <div>input</div>
+              {% endif %}
               <div class="rich-text__text rte {% if block.settings.rich-text__small %} rich-text__small {% endif %}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
