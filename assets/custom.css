@@ -412,6 +412,14 @@
     color: rgba(0, 0, 0) !important;
 }
 
+.rich-text__small {
+    font-size: 10px !important;
+}
+
+.rich-text__medium {
+    font-size: 14px !important;
+}
+
 .rich-text__buttons {
     height: 50px;
     margin-top: 1.6em;
