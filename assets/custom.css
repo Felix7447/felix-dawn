@@ -416,8 +416,18 @@
     font-size: 10px !important;
 }
 
+.rich-text__input {
+    margin-bottom: 2em;
+}
+
 .rich-text__medium {
     font-size: 14px !important;
+}
+
+.rich-text__medium input {
+    font-size: 14px !important;
+    padding: 1em;
+    width: 80%;
 }
 
 .rich-text__buttons {
