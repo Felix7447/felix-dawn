@@ -431,7 +431,12 @@
     padding: 1em;
     background-color: #000000;
     border-color: #000000;
+    border-style: dashed;
     color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 10px;
 }
 
 .rich-text__input input:focus-visible {
