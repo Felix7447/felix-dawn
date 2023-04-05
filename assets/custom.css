@@ -393,4 +393,14 @@
     display: block !important;
 }
 
+.rich-text__blocks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.rich-text__info {
+    width: 40%;
+}
+
 /* Ends Image Banner section */
