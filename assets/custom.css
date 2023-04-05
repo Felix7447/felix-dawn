@@ -409,6 +409,7 @@
 
 .rich-text__info {
     width: 46%;
+    color: rgba(0, 0, 0) !important;
 }
 
 .rich-text__buttons {
