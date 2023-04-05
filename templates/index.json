@@ -381,6 +381,7 @@
           "type": "text",
           "settings": {
             "text": "<p>My name is Sydney. I am the founder of the brand BANDITS. Committed to making your life easier, the Bandit is a functional zipper pocket, hidden within a stylish wrist accessory. <\/p>",
+            "rich-text__small": false,
             "button_label": "READ MORE",
             "button_link": "",
             "button_style_secondary": false,
@@ -417,6 +418,7 @@
           "type": "text",
           "settings": {
             "text": "<p>By pressing the button “Subscribe”, you confirm that you have read and are agreeing to our <strong>Terms of Use<\/strong> regarding the storage of the data submitted through this form.<\/p>",
+            "rich-text__small": true,
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
