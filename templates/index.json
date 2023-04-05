@@ -355,6 +355,7 @@
     "a4f571bb-5c6b-427a-b2fe-2627ae926020": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
