@@ -422,6 +422,7 @@
     color: rgba(0, 0, 0) !important;
     text-transform: uppercase;
     opacity: 1 !important;
+    font-weight: 700;
 }
 
 /* Ends Image Banner section */
