@@ -425,6 +425,13 @@
     padding: 1em;
 }
 
+.rich-text__input button {
+    width: 18%;
+    padding: 1em;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 .rich-text__medium {
     font-size: 14px !important;
 }
