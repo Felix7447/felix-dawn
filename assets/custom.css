@@ -402,7 +402,8 @@
 }
 
 .rich-text__heading {
-    align-self: center;
+    font-family: "IowanOldSt BT";
+    width: 16%;
 }
 
 .rich-text__info {
