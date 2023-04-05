@@ -433,12 +433,7 @@
     color: #FFFFFF;
 }
 
-.rich-text__input button:focus {
-    border: none;
-    outline: none;
-}
-
-.rich-text__input button:focus-visible {
+.rich-text__input input:focus-visible {
     border: none;
     outline: none;
 }
