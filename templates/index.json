@@ -352,6 +352,20 @@
         "paragraph_size": "small"
       }
     },
+    "a4f571bb-5c6b-427a-b2fe-2627ae926020": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -400,6 +414,7 @@
     "caae989e-8b94-4781-9064-42e3682d4da4",
     "053a1fe3-a738-4fd4-874c-7c0958b3c8e4",
     "2bf2c401-168c-405c-96a1-f46b9b14f4f8",
+    "a4f571bb-5c6b-427a-b2fe-2627ae926020",
     "video",
     "featured_collection"
   ]
