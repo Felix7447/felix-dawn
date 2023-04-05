@@ -46,7 +46,7 @@
             </p>
             {%- when 'text' -%}
             <div class="rich-text__info">
-              <div class="rich-text__text rte" {{ block.shopify_attributes }}>
+              <div class="rich-text__text rte {% if block.settings.rich-text__small %} rich-text__small {% endif %}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
               <div class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
@@ -299,6 +299,12 @@
             "label": "t:sections.rich-text.blocks.text.settings.text.label"
           },
           {
+            "type": "checkbox",
+            "id": "rich-text__small",
+            "default": false,
+            "label": "Font Size Small?"
+          },
+          {
             "type": "text",
             "id": "button_label",
             "default": "Button label",
@@ -309,8 +315,7 @@
             "type": "url",
             "id": "button_link",
             "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
-          },
-          {
+          }, {
             "type": "checkbox",
             "id": "button_style_secondary",
             "default": false,
