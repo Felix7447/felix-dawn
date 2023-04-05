@@ -416,8 +416,8 @@
         "template--18468542873901__8a1c174f-0ce1-486e-b6b3-327a6d999f0f-16807048614da85cda-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "button_label": "Button label",
+            "text": "<p>By pressing the button “Subscribe”, you confirm that you have read and are agreeing to our Terms of Use regarding the storage of the data submitted through this form.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
