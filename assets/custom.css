@@ -404,6 +404,7 @@
 .rich-text__heading {
     font-family: "IowanOldSt BT";
     width: 16%;
+    text-transform: capitalize;
 }
 
 .rich-text__info {
