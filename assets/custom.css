@@ -383,4 +383,10 @@
     margin-top: 3em;
 }
 
+.banner__media {
+    width: 85% !important;
+    right: 0;
+    margin: auto;
+}
+
 /* Ends Image Banner section */
