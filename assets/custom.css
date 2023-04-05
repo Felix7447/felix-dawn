@@ -427,6 +427,7 @@
 }
 
 .rich-text__input button {
+    height: 39px;
     width: 18%;
     padding: 1em;
     background-color: #000000;
