@@ -433,6 +433,11 @@
     color: #FFFFFF;
 }
 
+.rich-text__input button:focus-visible {
+    border: none;
+    outline: none;
+}
+
 .rich-text__medium {
     font-size: 14px !important;
 }
