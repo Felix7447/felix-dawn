@@ -421,6 +421,7 @@
     background-color: rgba(190, 211, 228, 1);
     color: rgba(0, 0, 0) !important;
     text-transform: uppercase;
+    opacity: 1 !important;
 }
 
 /* Ends Image Banner section */
