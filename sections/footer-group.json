@@ -5,11 +5,18 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "heading": "OUR GOAL",
+            "subtext": "<p>We hope to give you one less thing to worry about<\/p>"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "SHOP",
+            "menu": "main-menu"
           }
         },
         "footer-1": {
@@ -18,24 +25,18 @@
             "heading": "Info",
             "menu": "footer"
           }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
         }
       },
       "block_order": [
+        "footer-2",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
