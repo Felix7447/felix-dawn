@@ -507,6 +507,7 @@
 
 .footer__list-social {
     width: 20% !important;
+    height: 5em;
     display: grid !important;
     grid-template-columns: repeat(3, 2em);
     place-items: center;
