@@ -305,15 +305,28 @@
         {%- endif -%}
       </div> {% endcomment %}
       <div class="footer__payment">
-        <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+        <span class="visually-hidden">PAYMENT METHODS</span>
+        {% comment %} <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span> {% endcomment %}
         <ul class="list list-payment" role="list">
-          {%- for type in shop.enabled_payment_types -%}
+          {% comment %} {%- for type in shop.enabled_payment_types -%}
             <li class="list-payment__item">
               {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
             </li>
-          {%- endfor -%}
+          {%- endfor -%} {% endcomment %}
           <li class="list-payment__item">
             {{ 'paypal' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+          </li>
+          <li class="list-payment__item">
+            {{ 'amex' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+          </li>
+          <li class="list-payment__item">
+            {{ 'gpay' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+          </li>
+          <li class="list-payment__item">
+            {{ 'applepay' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+          </li>
+          <li class="list-payment__item">
+            {{ 'meta' | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>
         </ul>
       </div>
