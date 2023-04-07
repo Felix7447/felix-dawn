@@ -314,6 +314,9 @@
             </li>
           {%- endfor -%} {% endcomment %}
           <li class="list-payment__item">
+            {{ 'american_express' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+          </li>
+          <li class="list-payment__item">
             {{ 'paypal' | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>
           <li class="list-payment__item">
