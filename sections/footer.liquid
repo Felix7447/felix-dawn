@@ -305,7 +305,7 @@
         {%- endif -%}
       </div> {% endcomment %}
       <div class="footer__payment">
-        <span class="visually-hidden">PAYMENT METHODS</span>
+        <span>PAYMENT METHODS</span>
         {% comment %} <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span> {% endcomment %}
         <ul class="list list-payment" role="list">
           {% comment %} {%- for type in shop.enabled_payment_types -%}
@@ -320,10 +320,10 @@
             {{ 'visa' | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>
           <li class="list-payment__item">
-            {{ 'mastercard' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+            {{ 'master-card' | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>
           <li class="list-payment__item">
-            {{ 'applepay' | payment_type_svg_tag: class: 'icon icon--full-color' }}
+            {{ 'apple-pay' | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>
           <li class="list-payment__item">
             {{ 'meta' | payment_type_svg_tag: class: 'icon icon--full-color' }}

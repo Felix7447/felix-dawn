@@ -493,6 +493,7 @@
 
 .footer__content-bottom-wrapper {
     height: 8em;
+    justify-content: space-between !important;
 }
 
 /* Ends Footer */
