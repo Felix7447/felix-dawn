@@ -508,7 +508,8 @@
 .footer__list-social {
     width: 20% !important;
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2em);
+    place-items: center;
 }
 
 .footer__list-social a {
@@ -517,7 +518,7 @@
 
 .footer__list-social svg {
     height: auto !important;
-    width: 50% !important;
+    width: 80% !important;
 }
 
 /* Ends Footer */
