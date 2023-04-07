@@ -483,4 +483,9 @@
     font-size: 14px !important;
 }
 
+.footer__content-bottom {
+    border-top: none;
+    background-color: #000000;
+}
+
 /* Ends Footer */
