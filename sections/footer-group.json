@@ -16,21 +16,29 @@
           "type": "link_list",
           "settings": {
             "heading": "SHOP",
-            "menu": "main-menu"
+            "menu": "ringbandits-shop-menu"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "BRAND",
+            "menu": "ringbandits-brand-menu"
+          }
+        },
+        "222c44e0-ba53-4ff2-997e-d26872f6669f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "HELP",
+            "menu": "ringbandits-help-menu"
           }
         }
       },
       "block_order": [
         "footer-2",
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "222c44e0-ba53-4ff2-997e-d26872f6669f"
       ],
       "settings": {
         "color_scheme": "background-1",
