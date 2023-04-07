@@ -476,6 +476,7 @@
 
 .footer {
     padding-top: 6em !important;
+    padding-bottom: 0 !important;
 }
 
 .footer-block__heading {
