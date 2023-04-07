@@ -511,6 +511,7 @@
     height: 5em;
     display: grid !important;
     grid-template-columns: repeat(3, 2em);
+    gap: 1em;
     place-items: center;
 }
 
