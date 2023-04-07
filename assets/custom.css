@@ -511,4 +511,13 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.footer__list-social a {
+    padding: 0 !important;
+}
+
+.footer__list-social svg {
+    height: auto !important;
+    width: 50% !important;
+}
+
 /* Ends Footer */
