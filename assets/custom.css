@@ -496,4 +496,12 @@
     justify-content: space-between !important;
 }
 
+.footer__payment {
+    width: 25% !important;
+}
+
+.footer__payment ul {
+    justify-content: flex-start;
+}
+
 /* Ends Footer */
