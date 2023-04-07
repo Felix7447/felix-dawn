@@ -176,9 +176,9 @@
           </div>
         {%- endif -%}
 
-        {%- if section.settings.show_social -%}
+        {% comment %} {%- if section.settings.show_social -%}
           {%- render 'social-icons' -%}
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
       </div>
     </div>
   {%- endif -%}
