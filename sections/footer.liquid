@@ -304,6 +304,9 @@
           </ul>
         {%- endif -%}
       </div> {% endcomment %}
+      {%- if section.settings.show_social -%}
+        {%- render 'social-icons' -%}
+      {%- endif -%}
     </div>
   </div>
 </footer>
