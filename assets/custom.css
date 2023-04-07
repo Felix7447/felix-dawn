@@ -507,7 +507,8 @@
 
 .footer__list-social {
     width: 20% !important;
-    justify-content: flex-start;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /* Ends Footer */
