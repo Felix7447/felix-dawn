@@ -486,7 +486,7 @@
 
 .footer__content-bottom {
     background-color: #000000;
-    padding-top: 0 !important;
+    padding-top: 3em !important;
     padding-bottom: 0 !important;
     border-top: none;
 }
