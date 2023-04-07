@@ -502,6 +502,7 @@
 
 .footer__payment ul {
     justify-content: flex-start;
+    padding: 0.5em;
 }
 
 /* Ends Footer */
