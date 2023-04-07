@@ -505,4 +505,9 @@
     padding: 1em 0.5em;
 }
 
+.footer__list-social {
+    width: 20% !important;
+    justify-content: flex-start;
+}
+
 /* Ends Footer */
