@@ -478,4 +478,9 @@
     padding-top: 6em !important;
 }
 
+.footer-block__heading {
+    font-family: "DM Sans" !important;
+    font-size: 14px !important;
+}
+
 /* Ends Footer */
