@@ -538,6 +538,10 @@
 
 /* Ends Footer */
 
+.recommendation-container {
+    padding: 4em 0;
+}
+
 .grid-custom li {
     margin: 0 6px;
 }
