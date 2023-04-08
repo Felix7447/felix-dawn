@@ -33,7 +33,6 @@
 {%- endstyle -%}
 
 {% assign main_product = section.settings.main_product %}
-<h1>{{ recommendations.products }}</h1>
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
   <product-recommendations class="related-products page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ main_product.id }}&limit={{ section.settings.products_to_show }}">
     {% if recommendations.performed and recommendations.products_count > 0 %}
@@ -42,6 +41,7 @@
       </h2>
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         {% for recommendation in recommendations.products %}
+          <h1>{{ recommendation }}</h1>
           <li class="grid__item">
             {% render 'card-product'
              , card_product: recommendation,
