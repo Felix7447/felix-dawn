@@ -182,6 +182,7 @@
 
 .display-card__inner {
     display: flex !important;
+    height: 50% !important;
 }
 
 .card.card--standard.card--media.card--horizontal {
