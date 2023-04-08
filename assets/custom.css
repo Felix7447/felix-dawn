@@ -172,6 +172,9 @@
 .list-unstyled-custom {
     flex-direction: row !important;
 }
+.card .card__inner .card__media {
+    width: 100% !important;
+}
 
 .card__inner.color-background-2.gradient.ratio {
     display: none;
