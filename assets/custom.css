@@ -177,6 +177,10 @@
     display: none;
 }
 
+.display-card__inner {
+    display: block !important;
+}
+
 .card.card--standard.card--media.card--horizontal {
     background: #f8f8f8;
     margin: 10px;
