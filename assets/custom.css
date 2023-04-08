@@ -169,7 +169,7 @@
 }
 
 /* Product Recommedation */
-/* .list-unstyled-custom {
+.list-unstyled-custom {
     flex-direction: row !important;
 }
 
@@ -206,7 +206,7 @@
 .card__content .card__information h3.card__heading {
     text-transform: uppercase;
     font-weight: 600;
-} */
+}
 
 .product-form__buttons {
     max-width: 100% !important;
