@@ -398,6 +398,10 @@
         width: 100%;
         text-align: center;
     }
+
+    .description p {
+        padding-right: 0;
+    }
 }
 
 /* Ends Description section */
