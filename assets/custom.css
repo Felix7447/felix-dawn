@@ -555,3 +555,7 @@
     grid-template-rows: auto !important;
     flex-grow: 0 !important;
 }
+
+.card__information {
+    text-align: center;
+}
