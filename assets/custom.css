@@ -393,6 +393,10 @@
     .description-section-container {
         flex-direction: column;
     }
+
+    .description-section-container div {
+        width: 100%;
+    }
 }
 
 /* Ends Description section */
