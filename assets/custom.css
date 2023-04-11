@@ -182,7 +182,7 @@
 
 .display-card__inner {
     display: flex !important;
-    height: 80% !important;
+    height: 50% !important;
 }
 
 .card.card--standard.card--media.card--horizontal {
@@ -546,9 +546,9 @@
     margin: 0 6px;
 }
 
-.related-products-custom {
+/* .related-products-custom {
     padding-bottom: 2em !important;
-}
+} */
 
 .card__content-custom {
     display: grid;
