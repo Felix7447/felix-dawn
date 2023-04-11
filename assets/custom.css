@@ -182,7 +182,7 @@
 
 .display-card__inner {
     display: flex !important;
-    height: 50% !important;
+    height: 80% !important;
 }
 
 .card.card--standard.card--media.card--horizontal {
@@ -558,8 +558,4 @@
 
 .card__information {
     text-align: center;
-}
-
-.display-card__inner {
-    height: 80%;
 }
