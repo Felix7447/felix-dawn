@@ -545,3 +545,13 @@
 .grid-custom li {
     margin: 0 6px;
 }
+
+.related-products-custom {
+    padding-bottom: 2em !important;
+}
+
+.card__content-custom {
+    display: grid;
+    grid-template-rows: auto !important;
+    flex-grow: 0 !important;
+}
