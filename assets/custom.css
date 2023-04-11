@@ -559,3 +559,7 @@
 .card__information {
     text-align: center;
 }
+
+.display-card__inner {
+    height: 80%;
+}
