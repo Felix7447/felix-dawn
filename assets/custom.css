@@ -546,6 +546,10 @@
     margin: 0 6px;
 }
 
+.related-products-custom ul {
+    height: 20em !important;
+}
+
 /* .related-products-custom {
     padding-bottom: 2em !important;
 } */
