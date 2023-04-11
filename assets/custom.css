@@ -277,6 +277,12 @@
     transform: translate(-50%);
 }
 
+@media (max-width: 800px) {
+    .logo-list-container {
+        flex-direction: column;
+    }
+}
+
 
 /* Items */
 .logo-list-item {
