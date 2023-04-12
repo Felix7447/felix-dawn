@@ -22,10 +22,11 @@ Usage:
         <fieldset class="js product-form__input">
           <div style="display: grid; grid-template-columns: repeat(12, 1fr);">
             <legend class="form__label">{{ option.name }}</legend>
-            <a
-              id="Avada-SC-button"
-              class="view-size-chart"
-              style="grid-column: 7 / 12;">view size chart</a>
+            <div id="Avada-SC-button" class="">
+              <div class="">
+                <a class="view-size-chart" style="grid-column: 7 / 12;">view size chart</a>
+              </div>
+            </div>
           </div>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
